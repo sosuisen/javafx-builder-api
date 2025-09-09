@@ -222,7 +222,7 @@ public class CubicCurveToBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#absoluteProperty() absoluteProperty} 
+     * Applies a function to the {@link javafx.scene.shape.PathElement#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CubicCurveToBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

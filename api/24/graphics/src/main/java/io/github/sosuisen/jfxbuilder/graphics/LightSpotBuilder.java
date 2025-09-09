@@ -232,7 +232,7 @@ public class LightSpotBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#colorProperty() colorProperty} 
+     * Applies a function to the {@link javafx.scene.effect.Light#colorProperty() colorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -342,7 +342,7 @@ public class LightSpotBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#xProperty() xProperty} 
+     * Applies a function to the {@link javafx.scene.effect.Light.Point#xProperty() xProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -364,7 +364,7 @@ public class LightSpotBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#yProperty() yProperty} 
+     * Applies a function to the {@link javafx.scene.effect.Light.Point#yProperty() yProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -386,7 +386,7 @@ public class LightSpotBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Spot#zProperty() zProperty} 
+     * Applies a function to the {@link javafx.scene.effect.Light.Point#zProperty() zProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link LightSpotBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

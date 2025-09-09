@@ -28,7 +28,7 @@ public class TreeTableViewEditEventBuilder<S> {
     private TreeTableViewEditEventBuilder() {}
     
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.EditEvent#EditEvent(javafx.scene.control.TreeTableView, javafx.event.EventType, javafx.scene.control.TreeItem, S, S) EditEvent(TreeTableView, EventType, TreeItem, S, S)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.EditEvent#EditEvent(javafx.scene.control.TreeTableView, javafx.event.EventType, javafx.scene.control.TreeItem, java.lang.Object, java.lang.Object) EditEvent(TreeTableView, EventType, TreeItem, S, S)}
      * and returns an instance of {@code TreeTableViewEditEventBuilder<S>}.
      *
      * @return an instance of the {@code TreeTableViewEditEventBuilder<S>}.

@@ -2001,7 +2001,7 @@ public class CircleBuilder {
 
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#accessibleHelpProperty() accessibleHelpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2023,7 +2023,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2045,7 +2045,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#accessibleRoleProperty() accessibleRoleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2067,7 +2067,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#accessibleTextProperty() accessibleTextProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2089,7 +2089,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#blendModeProperty() blendModeProperty} 
+     * Applies a function to the {@link javafx.scene.Node#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2111,7 +2111,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#boundsInLocalProperty() boundsInLocalProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2133,7 +2133,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#boundsInParentProperty() boundsInParentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2155,7 +2155,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#cacheHintProperty() cacheHintProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2177,7 +2177,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#cacheProperty() cacheProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2243,7 +2243,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#clipProperty() clipProperty} 
+     * Applies a function to the {@link javafx.scene.Node#clipProperty() clipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2265,7 +2265,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#cursorProperty() cursorProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2287,7 +2287,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#depthTestProperty() depthTestProperty} 
+     * Applies a function to the {@link javafx.scene.Node#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2309,7 +2309,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2331,7 +2331,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#disabledProperty() disabledProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2353,7 +2353,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#effectProperty() effectProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectProperty() effectProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2375,7 +2375,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2397,7 +2397,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.scene.Node#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2419,7 +2419,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#fillProperty() fillProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#fillProperty() fillProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2441,7 +2441,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#focusTraversableProperty() focusTraversableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2463,7 +2463,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#focusVisibleProperty() focusVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2485,7 +2485,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#focusWithinProperty() focusWithinProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2507,7 +2507,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2529,7 +2529,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#hoverProperty() hoverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2551,7 +2551,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.Node#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2573,7 +2573,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2595,7 +2595,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#layoutBoundsProperty() layoutBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2617,7 +2617,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#layoutXProperty() layoutXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2639,7 +2639,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#layoutYProperty() layoutYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2661,7 +2661,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#localToParentTransformProperty() localToParentTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2683,7 +2683,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2705,7 +2705,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#managedProperty() managedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#managedProperty() managedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2727,7 +2727,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#mouseTransparentProperty() mouseTransparentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2749,7 +2749,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#nodeOrientationProperty() nodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2771,7 +2771,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2793,7 +2793,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onDragDetectedProperty() onDragDetectedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2815,7 +2815,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onDragDoneProperty() onDragDoneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2837,7 +2837,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onDragDroppedProperty() onDragDroppedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2859,7 +2859,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onDragEnteredProperty() onDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2881,7 +2881,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onDragExitedProperty() onDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2903,7 +2903,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onDragOverProperty() onDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2925,7 +2925,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2947,7 +2947,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onKeyPressedProperty() onKeyPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2969,7 +2969,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2991,7 +2991,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onKeyTypedProperty() onKeyTypedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3013,7 +3013,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseClickedProperty() onMouseClickedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3035,7 +3035,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3057,7 +3057,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3079,7 +3079,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3101,7 +3101,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3123,7 +3123,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3145,7 +3145,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3167,7 +3167,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseExitedProperty() onMouseExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3189,7 +3189,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseMovedProperty() onMouseMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3211,7 +3211,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMousePressedProperty() onMousePressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3233,7 +3233,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3255,7 +3255,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onRotateProperty() onRotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3277,7 +3277,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3299,7 +3299,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onRotationStartedProperty() onRotationStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3321,7 +3321,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3343,7 +3343,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onScrollProperty() onScrollProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3365,7 +3365,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onScrollStartedProperty() onScrollStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3387,7 +3387,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onSwipeDownProperty() onSwipeDownProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3409,7 +3409,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3431,7 +3431,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onSwipeRightProperty() onSwipeRightProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3453,7 +3453,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onSwipeUpProperty() onSwipeUpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3475,7 +3475,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onTouchMovedProperty() onTouchMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3497,7 +3497,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onTouchPressedProperty() onTouchPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3519,7 +3519,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3541,7 +3541,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3563,7 +3563,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3585,7 +3585,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onZoomProperty() onZoomProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3607,7 +3607,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#onZoomStartedProperty() onZoomStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3629,7 +3629,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.scene.Node#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3651,7 +3651,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3673,7 +3673,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3695,7 +3695,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#pressedProperty() pressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3739,7 +3739,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#rotateProperty() rotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3761,7 +3761,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#rotationAxisProperty() rotationAxisProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3783,7 +3783,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#scaleXProperty() scaleXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3805,7 +3805,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#scaleYProperty() scaleYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3827,7 +3827,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#scaleZProperty() scaleZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3849,7 +3849,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3871,7 +3871,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#smoothProperty() smoothProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#smoothProperty() smoothProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3893,7 +3893,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#strokeDashOffsetProperty() strokeDashOffsetProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeDashOffsetProperty() strokeDashOffsetProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3915,7 +3915,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#strokeLineCapProperty() strokeLineCapProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeLineCapProperty() strokeLineCapProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3937,7 +3937,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#strokeLineJoinProperty() strokeLineJoinProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeLineJoinProperty() strokeLineJoinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3959,7 +3959,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#strokeMiterLimitProperty() strokeMiterLimitProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeMiterLimitProperty() strokeMiterLimitProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3981,7 +3981,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#strokeProperty() strokeProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeProperty() strokeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4003,7 +4003,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#strokeTypeProperty() strokeTypeProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeTypeProperty() strokeTypeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4025,7 +4025,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#strokeWidthProperty() strokeWidthProperty} 
+     * Applies a function to the {@link javafx.scene.shape.Shape#strokeWidthProperty() strokeWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4047,7 +4047,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4069,7 +4069,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#translateXProperty() translateXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4091,7 +4091,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#translateYProperty() translateYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4113,7 +4113,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#translateZProperty() translateZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4135,7 +4135,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#viewOrderProperty() viewOrderProperty} 
+     * Applies a function to the {@link javafx.scene.Node#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4157,7 +4157,7 @@ public class CircleBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.shape.Circle#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CircleBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

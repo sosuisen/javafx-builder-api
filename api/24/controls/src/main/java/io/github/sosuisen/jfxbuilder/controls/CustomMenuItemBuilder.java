@@ -314,7 +314,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#acceleratorProperty() acceleratorProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#acceleratorProperty() acceleratorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -358,7 +358,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -380,7 +380,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#graphicProperty() graphicProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -424,7 +424,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -446,7 +446,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -468,7 +468,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#onActionProperty() onActionProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -490,7 +490,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#onMenuValidationProperty() onMenuValidationProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#onMenuValidationProperty() onMenuValidationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -512,7 +512,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#parentMenuProperty() parentMenuProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#parentMenuProperty() parentMenuProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -534,7 +534,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#parentPopupProperty() parentPopupProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#parentPopupProperty() parentPopupProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -556,7 +556,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -578,7 +578,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#textProperty() textProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#textProperty() textProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -600,7 +600,7 @@ public class CustomMenuItemBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CustomMenuItem#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CustomMenuItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

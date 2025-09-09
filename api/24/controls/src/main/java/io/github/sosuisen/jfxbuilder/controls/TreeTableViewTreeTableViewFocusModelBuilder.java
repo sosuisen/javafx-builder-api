@@ -163,7 +163,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedIndexProperty() focusedIndexProperty} 
+     * Applies a function to the {@link javafx.scene.control.FocusModel#focusedIndexProperty() focusedIndexProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TreeTableViewTreeTableViewFocusModelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -185,7 +185,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedItemProperty() focusedItemProperty} 
+     * Applies a function to the {@link javafx.scene.control.FocusModel#focusedItemProperty() focusedItemProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TreeTableViewTreeTableViewFocusModelBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

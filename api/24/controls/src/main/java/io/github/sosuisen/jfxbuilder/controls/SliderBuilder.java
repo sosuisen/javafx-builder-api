@@ -2172,7 +2172,7 @@ public class SliderBuilder {
 
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#accessibleHelpProperty() accessibleHelpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2194,7 +2194,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2216,7 +2216,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#accessibleRoleProperty() accessibleRoleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2238,7 +2238,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#accessibleTextProperty() accessibleTextProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2260,7 +2260,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#backgroundProperty() backgroundProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2282,7 +2282,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#blendModeProperty() blendModeProperty} 
+     * Applies a function to the {@link javafx.scene.Node#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2326,7 +2326,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#borderProperty() borderProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#borderProperty() borderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2348,7 +2348,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#boundsInLocalProperty() boundsInLocalProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2370,7 +2370,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#boundsInParentProperty() boundsInParentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2392,7 +2392,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#cacheHintProperty() cacheHintProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2414,7 +2414,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#cacheProperty() cacheProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2436,7 +2436,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#cacheShapeProperty() cacheShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2458,7 +2458,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#centerShapeProperty() centerShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2480,7 +2480,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#clipProperty() clipProperty} 
+     * Applies a function to the {@link javafx.scene.Node#clipProperty() clipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2502,7 +2502,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#contextMenuProperty() contextMenuProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2524,7 +2524,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#cursorProperty() cursorProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2546,7 +2546,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#depthTestProperty() depthTestProperty} 
+     * Applies a function to the {@link javafx.scene.Node#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2568,7 +2568,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2590,7 +2590,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#disabledProperty() disabledProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2612,7 +2612,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#effectProperty() effectProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectProperty() effectProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2634,7 +2634,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2656,7 +2656,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.scene.Node#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2678,7 +2678,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#focusTraversableProperty() focusTraversableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2700,7 +2700,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#focusVisibleProperty() focusVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2722,7 +2722,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#focusWithinProperty() focusWithinProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2744,7 +2744,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2766,7 +2766,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#heightProperty() heightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#heightProperty() heightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2788,7 +2788,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#hoverProperty() hoverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2810,7 +2810,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.Node#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2832,7 +2832,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2854,7 +2854,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#insetsProperty() insetsProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2898,7 +2898,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#layoutBoundsProperty() layoutBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2920,7 +2920,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#layoutXProperty() layoutXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2942,7 +2942,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#layoutYProperty() layoutYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2964,7 +2964,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#localToParentTransformProperty() localToParentTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2986,7 +2986,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3030,7 +3030,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#managedProperty() managedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#managedProperty() managedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3052,7 +3052,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#maxHeightProperty() maxHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3096,7 +3096,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#maxWidthProperty() maxWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3118,7 +3118,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#minHeightProperty() minHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3162,7 +3162,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#minWidthProperty() minWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3206,7 +3206,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#mouseTransparentProperty() mouseTransparentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3228,7 +3228,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#needsLayoutProperty() needsLayoutProperty} 
+     * Applies a function to the {@link javafx.scene.Parent#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3250,7 +3250,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#nodeOrientationProperty() nodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3272,7 +3272,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3294,7 +3294,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragDetectedProperty() onDragDetectedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3316,7 +3316,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragDoneProperty() onDragDoneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3338,7 +3338,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragDroppedProperty() onDragDroppedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3360,7 +3360,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragEnteredProperty() onDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3382,7 +3382,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragExitedProperty() onDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3404,7 +3404,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragOverProperty() onDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3426,7 +3426,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3448,7 +3448,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onKeyPressedProperty() onKeyPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3470,7 +3470,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3492,7 +3492,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onKeyTypedProperty() onKeyTypedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3514,7 +3514,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseClickedProperty() onMouseClickedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3536,7 +3536,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3558,7 +3558,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3580,7 +3580,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3602,7 +3602,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3624,7 +3624,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3646,7 +3646,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3668,7 +3668,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseExitedProperty() onMouseExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3690,7 +3690,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseMovedProperty() onMouseMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3712,7 +3712,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMousePressedProperty() onMousePressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3734,7 +3734,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3756,7 +3756,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onRotateProperty() onRotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3778,7 +3778,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3800,7 +3800,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onRotationStartedProperty() onRotationStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3822,7 +3822,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3844,7 +3844,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onScrollProperty() onScrollProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3866,7 +3866,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onScrollStartedProperty() onScrollStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3888,7 +3888,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeDownProperty() onSwipeDownProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3910,7 +3910,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3932,7 +3932,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeRightProperty() onSwipeRightProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3954,7 +3954,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeUpProperty() onSwipeUpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3976,7 +3976,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onTouchMovedProperty() onTouchMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3998,7 +3998,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onTouchPressedProperty() onTouchPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4020,7 +4020,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4042,7 +4042,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4064,7 +4064,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4086,7 +4086,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onZoomProperty() onZoomProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4108,7 +4108,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onZoomStartedProperty() onZoomStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4130,7 +4130,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.scene.Node#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4152,7 +4152,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4196,7 +4196,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#paddingProperty() paddingProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4218,7 +4218,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4240,7 +4240,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4262,7 +4262,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#prefHeightProperty() prefHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4284,7 +4284,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#prefWidthProperty() prefWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4306,7 +4306,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#pressedProperty() pressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4328,7 +4328,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#rotateProperty() rotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4350,7 +4350,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#rotationAxisProperty() rotationAxisProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4372,7 +4372,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#scaleShapeProperty() scaleShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4394,7 +4394,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#scaleXProperty() scaleXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4416,7 +4416,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#scaleYProperty() scaleYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4438,7 +4438,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#scaleZProperty() scaleZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4460,7 +4460,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4482,7 +4482,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#shapeProperty() shapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4548,7 +4548,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#skinProperty() skinProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#skinProperty() skinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4570,7 +4570,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#snapToPixelProperty() snapToPixelProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4614,7 +4614,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4636,7 +4636,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#tooltipProperty() tooltipProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4658,7 +4658,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#translateXProperty() translateXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4680,7 +4680,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#translateYProperty() translateYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4702,7 +4702,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#translateZProperty() translateZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4768,7 +4768,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#viewOrderProperty() viewOrderProperty} 
+     * Applies a function to the {@link javafx.scene.Node#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4790,7 +4790,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4812,7 +4812,7 @@ public class SliderBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#widthProperty() widthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#widthProperty() widthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SliderBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

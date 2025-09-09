@@ -2222,7 +2222,7 @@ public class RadioButtonBuilder {
 
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#accessibleHelpProperty() accessibleHelpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2244,7 +2244,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2266,7 +2266,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#accessibleRoleProperty() accessibleRoleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2288,7 +2288,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#accessibleTextProperty() accessibleTextProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2310,7 +2310,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#alignmentProperty() alignmentProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2332,7 +2332,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#armedProperty() armedProperty} 
+     * Applies a function to the {@link javafx.scene.control.ButtonBase#armedProperty() armedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2354,7 +2354,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#backgroundProperty() backgroundProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2376,7 +2376,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#blendModeProperty() blendModeProperty} 
+     * Applies a function to the {@link javafx.scene.Node#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2398,7 +2398,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#borderProperty() borderProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#borderProperty() borderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2420,7 +2420,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#boundsInLocalProperty() boundsInLocalProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2442,7 +2442,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#boundsInParentProperty() boundsInParentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2464,7 +2464,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#cacheHintProperty() cacheHintProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2486,7 +2486,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#cacheProperty() cacheProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2508,7 +2508,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#cacheShapeProperty() cacheShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2530,7 +2530,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#centerShapeProperty() centerShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2552,7 +2552,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#clipProperty() clipProperty} 
+     * Applies a function to the {@link javafx.scene.Node#clipProperty() clipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2574,7 +2574,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#contentDisplayProperty() contentDisplayProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2596,7 +2596,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#contextMenuProperty() contextMenuProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2618,7 +2618,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#cursorProperty() cursorProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2640,7 +2640,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#depthTestProperty() depthTestProperty} 
+     * Applies a function to the {@link javafx.scene.Node#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2662,7 +2662,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2684,7 +2684,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#disabledProperty() disabledProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2706,7 +2706,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#effectProperty() effectProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectProperty() effectProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2728,7 +2728,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2750,7 +2750,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#ellipsisStringProperty() ellipsisStringProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2772,7 +2772,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.scene.Node#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2794,7 +2794,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#focusTraversableProperty() focusTraversableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2816,7 +2816,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#focusVisibleProperty() focusVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2838,7 +2838,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#focusWithinProperty() focusWithinProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2860,7 +2860,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2882,7 +2882,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#fontProperty() fontProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#fontProperty() fontProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2904,7 +2904,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#graphicProperty() graphicProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2926,7 +2926,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#graphicTextGapProperty() graphicTextGapProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2948,7 +2948,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#heightProperty() heightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#heightProperty() heightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2970,7 +2970,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#hoverProperty() hoverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2992,7 +2992,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.Node#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3014,7 +3014,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3036,7 +3036,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#insetsProperty() insetsProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3058,7 +3058,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#labelPaddingProperty() labelPaddingProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3080,7 +3080,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#layoutBoundsProperty() layoutBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3102,7 +3102,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#layoutXProperty() layoutXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3124,7 +3124,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#layoutYProperty() layoutYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3146,7 +3146,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#lineSpacingProperty() lineSpacingProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3168,7 +3168,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#localToParentTransformProperty() localToParentTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3190,7 +3190,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3212,7 +3212,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#managedProperty() managedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#managedProperty() managedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3234,7 +3234,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#maxHeightProperty() maxHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3256,7 +3256,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#maxWidthProperty() maxWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3278,7 +3278,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#minHeightProperty() minHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3300,7 +3300,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#minWidthProperty() minWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3322,7 +3322,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#mnemonicParsingProperty() mnemonicParsingProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3344,7 +3344,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#mouseTransparentProperty() mouseTransparentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3366,7 +3366,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#needsLayoutProperty() needsLayoutProperty} 
+     * Applies a function to the {@link javafx.scene.Parent#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3388,7 +3388,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#nodeOrientationProperty() nodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3410,7 +3410,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onActionProperty() onActionProperty} 
+     * Applies a function to the {@link javafx.scene.control.ButtonBase#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3432,7 +3432,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3454,7 +3454,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onDragDetectedProperty() onDragDetectedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3476,7 +3476,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onDragDoneProperty() onDragDoneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3498,7 +3498,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onDragDroppedProperty() onDragDroppedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3520,7 +3520,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onDragEnteredProperty() onDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3542,7 +3542,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onDragExitedProperty() onDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3564,7 +3564,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onDragOverProperty() onDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3586,7 +3586,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3608,7 +3608,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onKeyPressedProperty() onKeyPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3630,7 +3630,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3652,7 +3652,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onKeyTypedProperty() onKeyTypedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3674,7 +3674,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseClickedProperty() onMouseClickedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3696,7 +3696,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3718,7 +3718,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3740,7 +3740,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3762,7 +3762,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3784,7 +3784,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3806,7 +3806,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3828,7 +3828,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseExitedProperty() onMouseExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3850,7 +3850,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseMovedProperty() onMouseMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3872,7 +3872,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMousePressedProperty() onMousePressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3894,7 +3894,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3916,7 +3916,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onRotateProperty() onRotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3938,7 +3938,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3960,7 +3960,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onRotationStartedProperty() onRotationStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3982,7 +3982,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4004,7 +4004,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onScrollProperty() onScrollProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4026,7 +4026,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onScrollStartedProperty() onScrollStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4048,7 +4048,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onSwipeDownProperty() onSwipeDownProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4070,7 +4070,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4092,7 +4092,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onSwipeRightProperty() onSwipeRightProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4114,7 +4114,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onSwipeUpProperty() onSwipeUpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4136,7 +4136,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onTouchMovedProperty() onTouchMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4158,7 +4158,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onTouchPressedProperty() onTouchPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4180,7 +4180,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4202,7 +4202,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4224,7 +4224,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4246,7 +4246,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onZoomProperty() onZoomProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4268,7 +4268,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#onZoomStartedProperty() onZoomStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4290,7 +4290,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.scene.Node#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4312,7 +4312,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4334,7 +4334,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#paddingProperty() paddingProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4356,7 +4356,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4378,7 +4378,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4400,7 +4400,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#prefHeightProperty() prefHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4422,7 +4422,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#prefWidthProperty() prefWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4444,7 +4444,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#pressedProperty() pressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4466,7 +4466,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#rotateProperty() rotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4488,7 +4488,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#rotationAxisProperty() rotationAxisProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4510,7 +4510,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#scaleShapeProperty() scaleShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4532,7 +4532,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#scaleXProperty() scaleXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4554,7 +4554,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#scaleYProperty() scaleYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4576,7 +4576,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#scaleZProperty() scaleZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4598,7 +4598,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4620,7 +4620,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#selectedProperty() selectedProperty} 
+     * Applies a function to the {@link javafx.scene.control.ToggleButton#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4642,7 +4642,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#shapeProperty() shapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4664,7 +4664,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#skinProperty() skinProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#skinProperty() skinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4686,7 +4686,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#snapToPixelProperty() snapToPixelProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4708,7 +4708,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4730,7 +4730,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#textAlignmentProperty() textAlignmentProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4752,7 +4752,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#textFillProperty() textFillProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4774,7 +4774,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#textOverrunProperty() textOverrunProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4796,7 +4796,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#textProperty() textProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#textProperty() textProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4818,7 +4818,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#textTruncatedProperty() textTruncatedProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4840,7 +4840,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#toggleGroupProperty() toggleGroupProperty} 
+     * Applies a function to the {@link javafx.scene.control.ToggleButton#toggleGroupProperty() toggleGroupProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4862,7 +4862,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#tooltipProperty() tooltipProperty} 
+     * Applies a function to the {@link javafx.scene.control.Control#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4884,7 +4884,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#translateXProperty() translateXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4906,7 +4906,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#translateYProperty() translateYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4928,7 +4928,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#translateZProperty() translateZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4950,7 +4950,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#underlineProperty() underlineProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4972,7 +4972,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#viewOrderProperty() viewOrderProperty} 
+     * Applies a function to the {@link javafx.scene.Node#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4994,7 +4994,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -5016,7 +5016,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#widthProperty() widthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#widthProperty() widthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -5038,7 +5038,7 @@ public class RadioButtonBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.RadioButton#wrapTextProperty() wrapTextProperty} 
+     * Applies a function to the {@link javafx.scene.control.Labeled#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link RadioButtonBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

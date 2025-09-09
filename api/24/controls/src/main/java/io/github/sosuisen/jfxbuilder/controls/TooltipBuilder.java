@@ -654,7 +654,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#anchorLocationProperty() anchorLocationProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#anchorLocationProperty() anchorLocationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -676,7 +676,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#anchorXProperty() anchorXProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#anchorXProperty() anchorXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -698,7 +698,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#anchorYProperty() anchorYProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#anchorYProperty() anchorYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -720,7 +720,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#autoFixProperty() autoFixProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#autoFixProperty() autoFixProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -742,7 +742,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#autoHideProperty() autoHideProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#autoHideProperty() autoHideProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -764,7 +764,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -808,7 +808,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.stage.Window#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -830,7 +830,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.stage.Window#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -874,7 +874,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
+     * Applies a function to the {@link javafx.stage.Window#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -940,7 +940,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#heightProperty() heightProperty} 
+     * Applies a function to the {@link javafx.stage.Window#heightProperty() heightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -984,7 +984,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#hideOnEscapeProperty() hideOnEscapeProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#hideOnEscapeProperty() hideOnEscapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1006,7 +1006,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1028,7 +1028,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#maxHeightProperty() maxHeightProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1050,7 +1050,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#maxWidthProperty() maxWidthProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1072,7 +1072,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#minHeightProperty() minHeightProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1094,7 +1094,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#minWidthProperty() minWidthProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1116,7 +1116,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#onAutoHideProperty() onAutoHideProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#onAutoHideProperty() onAutoHideProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1138,7 +1138,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#onCloseRequestProperty() onCloseRequestProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onCloseRequestProperty() onCloseRequestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1160,7 +1160,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#onHiddenProperty() onHiddenProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1182,7 +1182,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#onHidingProperty() onHidingProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1204,7 +1204,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#onShowingProperty() onShowingProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1226,7 +1226,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#onShownProperty() onShownProperty} 
+     * Applies a function to the {@link javafx.stage.Window#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1248,7 +1248,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.stage.Window#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1270,7 +1270,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#outputScaleXProperty() outputScaleXProperty} 
+     * Applies a function to the {@link javafx.stage.Window#outputScaleXProperty() outputScaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1292,7 +1292,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#outputScaleYProperty() outputScaleYProperty} 
+     * Applies a function to the {@link javafx.stage.Window#outputScaleYProperty() outputScaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1314,7 +1314,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#ownerNodeProperty() ownerNodeProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#ownerNodeProperty() ownerNodeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1336,7 +1336,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#ownerWindowProperty() ownerWindowProperty} 
+     * Applies a function to the {@link javafx.stage.PopupWindow#ownerWindowProperty() ownerWindowProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1358,7 +1358,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#prefHeightProperty() prefHeightProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1380,7 +1380,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#prefWidthProperty() prefWidthProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1402,7 +1402,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#renderScaleXProperty() renderScaleXProperty} 
+     * Applies a function to the {@link javafx.stage.Window#renderScaleXProperty() renderScaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1424,7 +1424,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#renderScaleYProperty() renderScaleYProperty} 
+     * Applies a function to the {@link javafx.stage.Window#renderScaleYProperty() renderScaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1446,7 +1446,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.stage.Window#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1512,7 +1512,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#showingProperty() showingProperty} 
+     * Applies a function to the {@link javafx.stage.Window#showingProperty() showingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1534,7 +1534,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#skinProperty() skinProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#skinProperty() skinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1556,7 +1556,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1644,7 +1644,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#widthProperty() widthProperty} 
+     * Applies a function to the {@link javafx.stage.Window#widthProperty() widthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1688,7 +1688,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#xProperty() xProperty} 
+     * Applies a function to the {@link javafx.stage.Window#xProperty() xProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -1710,7 +1710,7 @@ public class TooltipBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.Tooltip#yProperty() yProperty} 
+     * Applies a function to the {@link javafx.stage.Window#yProperty() yProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TooltipBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

@@ -2162,7 +2162,7 @@ public class PieChartBuilder {
 
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#accessibleHelpProperty() accessibleHelpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2184,7 +2184,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2206,7 +2206,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#accessibleRoleProperty() accessibleRoleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2228,7 +2228,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#accessibleTextProperty() accessibleTextProperty} 
+     * Applies a function to the {@link javafx.scene.Node#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2250,7 +2250,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#animatedProperty() animatedProperty} 
+     * Applies a function to the {@link javafx.scene.chart.Chart#animatedProperty() animatedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2272,7 +2272,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#backgroundProperty() backgroundProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2294,7 +2294,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#blendModeProperty() blendModeProperty} 
+     * Applies a function to the {@link javafx.scene.Node#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2316,7 +2316,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#borderProperty() borderProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#borderProperty() borderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2338,7 +2338,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#boundsInLocalProperty() boundsInLocalProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2360,7 +2360,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#boundsInParentProperty() boundsInParentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2382,7 +2382,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#cacheHintProperty() cacheHintProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2404,7 +2404,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#cacheProperty() cacheProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2426,7 +2426,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#cacheShapeProperty() cacheShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2448,7 +2448,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#centerShapeProperty() centerShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2470,7 +2470,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#clipProperty() clipProperty} 
+     * Applies a function to the {@link javafx.scene.Node#clipProperty() clipProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2514,7 +2514,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#cursorProperty() cursorProperty} 
+     * Applies a function to the {@link javafx.scene.Node#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2558,7 +2558,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#depthTestProperty() depthTestProperty} 
+     * Applies a function to the {@link javafx.scene.Node#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2580,7 +2580,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#disableProperty() disableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disableProperty() disableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2602,7 +2602,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#disabledProperty() disabledProperty} 
+     * Applies a function to the {@link javafx.scene.Node#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2624,7 +2624,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#effectProperty() effectProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectProperty() effectProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2646,7 +2646,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2668,7 +2668,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#eventDispatcherProperty() eventDispatcherProperty} 
+     * Applies a function to the {@link javafx.scene.Node#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2690,7 +2690,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#focusTraversableProperty() focusTraversableProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2712,7 +2712,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#focusVisibleProperty() focusVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2734,7 +2734,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#focusWithinProperty() focusWithinProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2756,7 +2756,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#focusedProperty() focusedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2778,7 +2778,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#heightProperty() heightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#heightProperty() heightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2800,7 +2800,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#hoverProperty() hoverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2822,7 +2822,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#idProperty() idProperty} 
+     * Applies a function to the {@link javafx.scene.Node#idProperty() idProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2844,7 +2844,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2866,7 +2866,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#insetsProperty() insetsProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2932,7 +2932,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#layoutBoundsProperty() layoutBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2954,7 +2954,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#layoutXProperty() layoutXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2976,7 +2976,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#layoutYProperty() layoutYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -2998,7 +2998,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#legendSideProperty() legendSideProperty} 
+     * Applies a function to the {@link javafx.scene.chart.Chart#legendSideProperty() legendSideProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3020,7 +3020,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#legendVisibleProperty() legendVisibleProperty} 
+     * Applies a function to the {@link javafx.scene.chart.Chart#legendVisibleProperty() legendVisibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3042,7 +3042,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#localToParentTransformProperty() localToParentTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3064,7 +3064,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * Applies a function to the {@link javafx.scene.Node#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3086,7 +3086,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#managedProperty() managedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#managedProperty() managedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3108,7 +3108,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#maxHeightProperty() maxHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3130,7 +3130,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#maxWidthProperty() maxWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3152,7 +3152,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#minHeightProperty() minHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3174,7 +3174,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#minWidthProperty() minWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3196,7 +3196,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#mouseTransparentProperty() mouseTransparentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3218,7 +3218,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#needsLayoutProperty() needsLayoutProperty} 
+     * Applies a function to the {@link javafx.scene.Parent#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3240,7 +3240,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#nodeOrientationProperty() nodeOrientationProperty} 
+     * Applies a function to the {@link javafx.scene.Node#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3262,7 +3262,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3284,7 +3284,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onDragDetectedProperty() onDragDetectedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3306,7 +3306,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onDragDoneProperty() onDragDoneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3328,7 +3328,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onDragDroppedProperty() onDragDroppedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3350,7 +3350,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onDragEnteredProperty() onDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3372,7 +3372,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onDragExitedProperty() onDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3394,7 +3394,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onDragOverProperty() onDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3416,7 +3416,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3438,7 +3438,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onKeyPressedProperty() onKeyPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3460,7 +3460,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3482,7 +3482,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onKeyTypedProperty() onKeyTypedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3504,7 +3504,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseClickedProperty() onMouseClickedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3526,7 +3526,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3548,7 +3548,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3570,7 +3570,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3592,7 +3592,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3614,7 +3614,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3636,7 +3636,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3658,7 +3658,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseExitedProperty() onMouseExitedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3680,7 +3680,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseMovedProperty() onMouseMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3702,7 +3702,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMousePressedProperty() onMousePressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3724,7 +3724,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3746,7 +3746,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onRotateProperty() onRotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3768,7 +3768,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3790,7 +3790,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onRotationStartedProperty() onRotationStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3812,7 +3812,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3834,7 +3834,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onScrollProperty() onScrollProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3856,7 +3856,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onScrollStartedProperty() onScrollStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3878,7 +3878,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onSwipeDownProperty() onSwipeDownProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3900,7 +3900,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3922,7 +3922,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onSwipeRightProperty() onSwipeRightProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3944,7 +3944,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onSwipeUpProperty() onSwipeUpProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3966,7 +3966,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onTouchMovedProperty() onTouchMovedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -3988,7 +3988,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onTouchPressedProperty() onTouchPressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4010,7 +4010,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4032,7 +4032,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4054,7 +4054,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4076,7 +4076,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onZoomProperty() onZoomProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4098,7 +4098,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#onZoomStartedProperty() onZoomStartedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4120,7 +4120,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#opacityProperty() opacityProperty} 
+     * Applies a function to the {@link javafx.scene.Node#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4142,7 +4142,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4164,7 +4164,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#paddingProperty() paddingProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4186,7 +4186,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.Node#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4208,7 +4208,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4230,7 +4230,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#prefHeightProperty() prefHeightProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4252,7 +4252,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#prefWidthProperty() prefWidthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4274,7 +4274,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#pressedProperty() pressedProperty} 
+     * Applies a function to the {@link javafx.scene.Node#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4296,7 +4296,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#rotateProperty() rotateProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4318,7 +4318,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#rotationAxisProperty() rotationAxisProperty} 
+     * Applies a function to the {@link javafx.scene.Node#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4340,7 +4340,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#scaleShapeProperty() scaleShapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4362,7 +4362,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#scaleXProperty() scaleXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4384,7 +4384,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#scaleYProperty() scaleYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4406,7 +4406,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#scaleZProperty() scaleZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4428,7 +4428,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#sceneProperty() sceneProperty} 
+     * Applies a function to the {@link javafx.scene.Node#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4450,7 +4450,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#shapeProperty() shapeProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4472,7 +4472,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#snapToPixelProperty() snapToPixelProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4516,7 +4516,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#styleProperty() styleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#styleProperty() styleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4538,7 +4538,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#titleProperty() titleProperty} 
+     * Applies a function to the {@link javafx.scene.chart.Chart#titleProperty() titleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4560,7 +4560,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#titleSideProperty() titleSideProperty} 
+     * Applies a function to the {@link javafx.scene.chart.Chart#titleSideProperty() titleSideProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4582,7 +4582,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#translateXProperty() translateXProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4604,7 +4604,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#translateYProperty() translateYProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4626,7 +4626,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#translateZProperty() translateZProperty} 
+     * Applies a function to the {@link javafx.scene.Node#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4648,7 +4648,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#viewOrderProperty() viewOrderProperty} 
+     * Applies a function to the {@link javafx.scene.Node#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4670,7 +4670,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#visibleProperty() visibleProperty} 
+     * Applies a function to the {@link javafx.scene.Node#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -4692,7 +4692,7 @@ public class PieChartBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.chart.PieChart#widthProperty() widthProperty} 
+     * Applies a function to the {@link javafx.scene.layout.Region#widthProperty() widthProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link PieChartBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

@@ -171,7 +171,7 @@ public class TreeCellSkinBuilder<T> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.TreeCellSkin#cellSizeProperty() cellSizeProperty} 
+     * Applies a function to the {@link javafx.scene.control.skin.CellSkinBase#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TreeCellSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

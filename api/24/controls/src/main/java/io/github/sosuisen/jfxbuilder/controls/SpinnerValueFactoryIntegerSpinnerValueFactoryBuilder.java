@@ -203,7 +203,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory#setValue(T) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -245,7 +245,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#converterProperty() converterProperty} 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory#converterProperty() converterProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -311,7 +311,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#valueProperty() valueProperty} 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory#valueProperty() valueProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -333,7 +333,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#wrapAroundProperty() wrapAroundProperty} 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory#wrapAroundProperty() wrapAroundProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

@@ -161,7 +161,7 @@ public class TableCellSkinBuilder<S, T> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#cellSizeProperty() cellSizeProperty} 
+     * Applies a function to the {@link javafx.scene.control.skin.CellSkinBase#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link TableCellSkinBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

@@ -204,7 +204,7 @@ public class LightDistantBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.effect.Light.Distant#colorProperty() colorProperty} 
+     * Applies a function to the {@link javafx.scene.effect.Light#colorProperty() colorProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link LightDistantBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

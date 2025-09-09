@@ -35,7 +35,7 @@ public class CheckBoxTreeItemBuilder<T> {
     public static <T> CheckBoxTreeItemBuilder<T> create() { return new CheckBoxTreeItemBuilder<T>(); }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T) CheckBoxTreeItem(T)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(java.lang.Object) CheckBoxTreeItem(T)}
      * and returns an instance of {@code CheckBoxTreeItemBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
@@ -47,7 +47,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T, javafx.scene.Node) CheckBoxTreeItem(T, Node)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(java.lang.Object, javafx.scene.Node) CheckBoxTreeItem(T, Node)}
      * and returns an instance of {@code CheckBoxTreeItemBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
@@ -59,7 +59,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T, javafx.scene.Node, boolean) CheckBoxTreeItem(T, Node, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(java.lang.Object, javafx.scene.Node, boolean) CheckBoxTreeItem(T, Node, boolean)}
      * and returns an instance of {@code CheckBoxTreeItemBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
@@ -71,7 +71,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T, javafx.scene.Node, boolean, boolean) CheckBoxTreeItem(T, Node, boolean, boolean)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(java.lang.Object, javafx.scene.Node, boolean, boolean) CheckBoxTreeItem(T, Node, boolean, boolean)}
      * and returns an instance of {@code CheckBoxTreeItemBuilder<T>}.
      *
      * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
@@ -240,7 +240,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TreeItem#setValue(T) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TreeItem#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -292,7 +292,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#expandedProperty() expandedProperty} 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#expandedProperty() expandedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CheckBoxTreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -314,7 +314,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#graphicProperty() graphicProperty} 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CheckBoxTreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -380,7 +380,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#leafProperty() leafProperty} 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#leafProperty() leafProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CheckBoxTreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -402,7 +402,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#parentProperty() parentProperty} 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#parentProperty() parentProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CheckBoxTreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -446,7 +446,7 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#valueProperty() valueProperty} 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#valueProperty() valueProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link CheckBoxTreeItemBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>

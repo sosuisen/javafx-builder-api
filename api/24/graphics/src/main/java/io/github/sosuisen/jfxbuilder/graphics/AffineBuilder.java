@@ -378,7 +378,7 @@ public class AffineBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#identityProperty() identityProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#identityProperty() identityProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -598,7 +598,7 @@ public class AffineBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#onTransformChangedProperty() onTransformChangedProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#onTransformChangedProperty() onTransformChangedProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
@@ -664,7 +664,7 @@ public class AffineBuilder {
     }
 
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#type2DProperty() type2DProperty} 
+     * Applies a function to the {@link javafx.scene.transform.Transform#type2DProperty() type2DProperty} 
      * of the instance being constructed. 
      * This serves as a shorthand form of the {@link AffineBuilder#apply(java.util.function.Consumer) apply} method.
      * <p>
