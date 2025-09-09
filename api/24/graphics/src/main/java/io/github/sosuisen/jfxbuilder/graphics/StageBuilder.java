@@ -1,17 +1,17 @@
 package io.github.sosuisen.jfxbuilder.graphics;
 
 /**
- * The {@code StageBuilder} class constructs instances of the {@link javafx.stage.Stage} class 
+ * The {@code StageBuilder} class constructs instances of the {@link javafx.stage.Stage Stage} class 
  * and offers a fluent interface for creating and configuring it. 
  *
  * <p>
- * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.stage.Stage} constructor
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.stage.Stage Stage} constructor
  * and returns an instance of the {@code StageBuilder}.
  * </p>
  *
  * <p>
- * You can use method chaining to call the builder methods for configuring the {@link javafx.stage.Stage}.
- * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.stage.Stage} class.
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.stage.Stage Stage}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.stage.Stage Stage} class.
  * </p>
  *
  * <p>
@@ -19,25 +19,32 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * is called, meaning they are evaluated lazily.
  * </p>
  * <p>
- * Note 2: There is no setter for the optional constructor argument {@code StageStyle}, but {@code StageBuilder} has a {@code stageStyle} method.
+ * Note 2: The {@link javafx.stage.Stage Stage} class does not have a setter for the 
+ * {@code StageStyle} constructor argument, but {@code StageBuilder} provides a {@code stageStyle} method.
  * </p>
  * <p>
  * Example:
  * </p>
- * <pre>{@code 
- * StageBuilder.withScene(
- *       SceneBuilder.withRoot(
- *             AnchorPaneBuilder.withChildren(
- *                   LabelBuilder.create()
-                         .text("Hello, JavaFX!")
-                         .style("-fx-font-weight: bold;")
-                         .build())
- *                 .build())
- *           .build())
- *     .width(640)
- *     .height(480)
- *     .build();
- * }</pre>
+ * {@snippet :
+ *  StageBuilder
+ *          .withScene(
+ *              SceneBuilder
+ *                  .withRoot(
+ *                      AnchorPaneBuilder
+ *                          .withChildren(
+ *                              LabelBuilder.create()
+ *                                  .text("Hello, JavaFX!")
+ *                                  .style("-fx-font-weight: bold;")
+ *                                  .build()
+ *                          )
+ *                          .build()
+ *                  )
+ *                  .build()
+ *          )
+ *          .width(640)
+ *          .height(480)
+ *          .build();
+ * }
  *
  * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
  */
