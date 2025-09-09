@@ -4,12 +4,9 @@
 
 
     /**
-     * Adds a child to the gridpane at the specified [column, row] position.
-     * This convenience method will set the gridpane column and row constraints
-     * on the child.
-     * @param child the node being added to the gridpane
-     * @param columnIndex the column index position for the child within the gridpane, counting from 0
-     * @param rowIndex the row index position for the child within the gridpane, counting from 0
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#add(javafx.scene.Node, int, int) add} method on the instance being constructed.
+     *
+     * @return builder instance
      */
     public ${model.builderClassNameWithTypeParameter()} add(javafx.scene.Node child, int columnIndex, int rowIndex) {
         operations.add(obj -> obj.add(child, columnIndex, rowIndex));
@@ -18,14 +15,9 @@
 
 
     /**
-     * Adds a child to the gridpane at the specified [column, row] position and spans.
-     * This convenience method will set the gridpane column, row, and span constraints
-     * on the child.
-     * @param child the node being added to the gridpane
-     * @param columnIndex the column index position for the child within the gridpane, counting from 0
-     * @param rowIndex the row index position for the child within the gridpane, counting from 0
-     * @param colspan the number of columns the child's layout area should span
-     * @param rowspan the number of rows the child's layout area should span
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#add(javafx.scene.Node, int, int, int, int) add} method on the instance being constructed.
+     *
+     * @return builder instance
      */
     public ${model.builderClassNameWithTypeParameter()} add(javafx.scene.Node child, int columnIndex, int rowIndex, int colspan, int rowspan) {
         operations.add(obj -> obj.add(child, columnIndex, rowIndex, colspan, rowspan));
@@ -33,15 +25,9 @@
     }
 
     /**
-     * Convenience method for placing the specified nodes sequentially in a given
-     * row of the gridpane.    If the row already contains nodes the specified nodes
-     * will be appended to the row.  For example, the first node will be positioned at [column,row],
-     * the second at [column+1,row], etc.   This method will set the appropriate gridpane
-     * row/column constraints on the nodes as well as add the nodes to the gridpane's
-     * children sequence.
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#addRow(int, javafx.scene.Node[]) addRow} method on the instance being constructed.
      *
-     * @param rowIndex the row index position for the children within the gridpane
-     * @param children the nodes to be added as a row in the gridpane
+     * @return builder instance
      */
     public ${model.builderClassNameWithTypeParameter()} addRow(int rowIndex, javafx.scene.Node... children) {
         operations.add(obj -> obj.addRow(rowIndex, children));
@@ -49,15 +35,9 @@
     }
 
      /**
-     * Convenience method for placing the specified nodes sequentially in a given
-     * column of the gridpane.    If the column already contains nodes the specified nodes
-     * will be appended to the column.  For example, the first node will be positioned at [column, row],
-     * the second at [column, row+1], etc.   This method will set the appropriate gridpane
-     * row/column constraints on the nodes as well as add the nodes to the gridpane's
-     * children sequence.
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#addColumn(int, javafx.scene.Node[]) addColumn} method on the instance being constructed.     
      *
-     * @param columnIndex the column index position for the children within the gridpane
-     * @param children the nodes to be added as a column in the gridpane
+     * @return builder instance
      */
     public ${model.builderClassNameWithTypeParameter()} addColumn(int columnIndex, javafx.scene.Node... children)  {
         operations.add(obj -> obj.addColumn(columnIndex, children));
