@@ -203,7 +203,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setValue(java.lang.Integer) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setValue(T) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
