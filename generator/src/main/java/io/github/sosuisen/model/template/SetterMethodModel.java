@@ -15,7 +15,7 @@ public record SetterMethodModel(
     String parameterList,
     String parameterTypeList,
     String argumentList,
-    String originalClassName,
+    String declaringClassName,
     String originalMethodName,
     String methodAnnotation) {
 
@@ -66,13 +66,15 @@ public record SetterMethodModel(
                 classMetadata.getCanonicalClassName(), setterMethod.getName()
             );
 
+            String declareingClassname = setterMethod.getDeclaringClass().getCanonicalName();
+
             return new SetterMethodModel(
                 classMetadata.builderClassNameWithTypeParameter(),
                 methodName,
                 parameterList,
                 parameterTypeList,
                 argumentList,
-                classMetadata.getCanonicalClassName(),
+                declareingClassname,
                 setterMethod.getName(),
                 methodAnnotation != null ? methodAnnotation : ""
             );
