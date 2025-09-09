@@ -77,8 +77,7 @@ public record CreateMethodModel(
                     );
                 parameterListSimpleTypesOnly =
                     ParameterStringBuilder.buildParameterListSimpleTypesOnly(
-                        types,
-                        classMetadata.getCanonicalClassName()
+                        types
                     );
                 argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
             }
