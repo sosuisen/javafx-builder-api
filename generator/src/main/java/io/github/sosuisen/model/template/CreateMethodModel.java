@@ -71,7 +71,7 @@ public record CreateMethodModel(
                     isVarArgs
                 );
                 parameterListTypesOnly =
-                    ParameterStringBuilder.buildParameterListCanonicalTypesOnlyForceReplace(
+                    ParameterStringBuilder.buildParameterListCanonicalTypesOnlyForJavaDoc(
                         types,
                         classMetadata
                     );

@@ -10,9 +10,13 @@ import java.util.function.Function;
 
 import io.github.sosuisen.model.data.BuildInfo;
 
-public class TypeMappingManager {
+public class JavaDocMappingManager {
     private static final Map<String, String> TYPE_MAPPINGS = new HashMap<>();
     private static final Map<String, String> STRING_MAPPINGS = new HashMap<>();
+
+    public enum CodeOrJavaDoc {
+        CODE, JAVADOC, BOTH
+    };
 
     static {
         loadTypeMappings();
