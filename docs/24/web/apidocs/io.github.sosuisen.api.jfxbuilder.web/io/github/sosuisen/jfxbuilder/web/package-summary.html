@@ -79,14 +79,17 @@ loadScripts(document, 'script');</script>
  HTMLEditor, and other web integration elements.</p>
  
  <p>Example usage:</p>
- <pre><code>
- WebView webView = WebViewBuilder.create()
-     .prefWidth(800)
-     .prefHeight(600)
-     .build();
  
- webView.getEngine().load("https://example.com");
- </code></pre></div>
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-io.github.sosuisen.jfxbuilder.web1"><code>WebView webView = WebViewBuilder.create()
+    .prefWidth(800)
+    .prefHeight(600)
+    .build();
+
+webView.getEngine().load("https://example.com");
+</code></pre>
+</div>
+</div>
 </section>
 </div>
 <section class="summary">

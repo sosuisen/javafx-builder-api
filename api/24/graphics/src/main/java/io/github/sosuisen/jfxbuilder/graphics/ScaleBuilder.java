@@ -264,13 +264,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.identityProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .identityPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .identityPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -286,13 +286,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTransformChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -308,13 +308,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pivotXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pivotXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pivotXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -330,13 +330,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pivotYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pivotYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pivotYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -352,13 +352,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.pivotZProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .pivotZPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .pivotZPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -374,13 +374,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.type2DProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -396,13 +396,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.xProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -418,13 +418,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.yProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -440,13 +440,13 @@ public class ScaleBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.zProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .zPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .zPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

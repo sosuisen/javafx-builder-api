@@ -5,11 +5,11 @@
     /**
      * Utility setter to add CSS string for this ${model.simpleClassName()}'s contents.
      * For example:
-     * <pre>{@code
+     * {@snippet :
      * ${model.builderClassName()} builder = ${model.builderClassName()}.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();}
-     * </pre>
+     *          .build();
+     * }
      *
      * @param css CSS string
      */

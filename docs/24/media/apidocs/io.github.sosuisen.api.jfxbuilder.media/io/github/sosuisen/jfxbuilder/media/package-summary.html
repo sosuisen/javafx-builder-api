@@ -79,17 +79,20 @@ loadScripts(document, 'script');</script>
  AudioClip, and other multimedia elements.</p>
  
  <p>Example usage:</p>
- <pre><code>
- MediaView mediaView = MediaViewBuilder.create()
-         .mediaPlayer(MediaPlayerBuilder.create(
-                 new Media("https://xxxx/xxx.mp4"))
-                 .autoPlay(true)
-                 .build())
-         .fitWidth(640)
-         .fitHeight(480)
-         .preserveRatio(true)
-         .build();
- </code></pre></div>
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-io.github.sosuisen.jfxbuilder.media1"><code>MediaView mediaView = MediaViewBuilder.create()
+        .mediaPlayer(MediaPlayerBuilder.create(
+                new Media("https://xxxx/xxx.mp4"))
+                .autoPlay(true)
+                .build())
+        .fitWidth(640)
+        .fitHeight(480)
+        .preserveRatio(true)
+        .build();
+</code></pre>
+</div>
+</div>
 </section>
 </div>
 <section class="summary">

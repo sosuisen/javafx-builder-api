@@ -156,13 +156,13 @@ public class ClosePathBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

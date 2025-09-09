@@ -181,13 +181,13 @@ public class WritableImageBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.errorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .errorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .errorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -203,13 +203,13 @@ public class WritableImageBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.exceptionProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .exceptionPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .exceptionPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -225,13 +225,13 @@ public class WritableImageBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.heightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -247,13 +247,13 @@ public class WritableImageBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.progressProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .progressPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .progressPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -269,13 +269,13 @@ public class WritableImageBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.widthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

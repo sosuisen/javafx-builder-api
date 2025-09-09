@@ -165,13 +165,13 @@ public class AudioEqualizerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.enabledProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .enabledPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .enabledPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

@@ -328,13 +328,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.contentTextProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .contentTextPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .contentTextPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -350,13 +350,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.dialogPaneProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .dialogPanePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .dialogPanePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -372,13 +372,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -394,13 +394,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.headerTextProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .headerTextPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .headerTextPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -416,13 +416,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.heightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -438,13 +438,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -460,13 +460,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onHiddenProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -482,13 +482,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onHidingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -504,13 +504,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onShowingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -526,13 +526,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onShownProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -548,13 +548,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.resizableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .resizablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .resizablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -570,13 +570,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.resultConverterProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .resultConverterPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .resultConverterPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -592,13 +592,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.resultProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .resultPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .resultPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -614,13 +614,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.showingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .showingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .showingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -636,13 +636,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.titleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -658,13 +658,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.widthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -680,13 +680,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.xProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -702,13 +702,13 @@ public class TextInputDialogBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.yProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

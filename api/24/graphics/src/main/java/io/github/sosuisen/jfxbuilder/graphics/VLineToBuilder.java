@@ -178,13 +178,13 @@ public class VLineToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -200,13 +200,13 @@ public class VLineToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.yProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

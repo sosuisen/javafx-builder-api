@@ -156,13 +156,13 @@ public class SplitPaneDividerBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.positionProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .positionPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .positionPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

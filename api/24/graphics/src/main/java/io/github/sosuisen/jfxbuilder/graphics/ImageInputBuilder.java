@@ -200,13 +200,13 @@ public class ImageInputBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.sourceProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .sourcePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .sourcePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -222,13 +222,13 @@ public class ImageInputBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.xProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -244,13 +244,13 @@ public class ImageInputBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.yProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

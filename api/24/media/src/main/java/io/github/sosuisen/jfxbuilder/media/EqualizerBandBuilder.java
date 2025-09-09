@@ -188,13 +188,13 @@ public class EqualizerBandBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.bandwidthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .bandwidthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .bandwidthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -210,13 +210,13 @@ public class EqualizerBandBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.centerFrequencyProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .centerFrequencyPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .centerFrequencyPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -232,13 +232,13 @@ public class EqualizerBandBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.gainProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .gainPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .gainPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

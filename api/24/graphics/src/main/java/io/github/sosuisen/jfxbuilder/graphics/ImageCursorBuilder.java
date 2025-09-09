@@ -170,13 +170,13 @@ public class ImageCursorBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.hotspotXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .hotspotXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .hotspotXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -192,13 +192,13 @@ public class ImageCursorBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.hotspotYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .hotspotYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .hotspotYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -214,13 +214,13 @@ public class ImageCursorBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.imageProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .imagePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .imagePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

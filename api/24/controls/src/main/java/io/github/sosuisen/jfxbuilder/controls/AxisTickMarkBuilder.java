@@ -188,13 +188,13 @@ public class AxisTickMarkBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.labelProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .labelPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .labelPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -210,13 +210,13 @@ public class AxisTickMarkBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.positionProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .positionPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .positionPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -232,13 +232,13 @@ public class AxisTickMarkBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.valueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

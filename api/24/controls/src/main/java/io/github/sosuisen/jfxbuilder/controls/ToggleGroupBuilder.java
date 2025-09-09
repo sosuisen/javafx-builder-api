@@ -200,13 +200,13 @@ public class ToggleGroupBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.selectedToggleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .selectedTogglePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .selectedTogglePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

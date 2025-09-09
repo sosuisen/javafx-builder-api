@@ -188,13 +188,13 @@ public class LightDistantBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.azimuthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .azimuthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .azimuthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -210,13 +210,13 @@ public class LightDistantBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.colorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .colorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .colorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -232,13 +232,13 @@ public class LightDistantBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.elevationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .elevationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .elevationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

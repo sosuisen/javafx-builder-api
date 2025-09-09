@@ -169,13 +169,13 @@ public class TableRowSkinBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cellSizeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cellSizePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cellSizePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

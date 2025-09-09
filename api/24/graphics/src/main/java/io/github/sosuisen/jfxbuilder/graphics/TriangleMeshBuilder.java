@@ -168,13 +168,13 @@ public class TriangleMeshBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.vertexFormatProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .vertexFormatPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .vertexFormatPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

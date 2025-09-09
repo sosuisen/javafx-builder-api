@@ -238,13 +238,13 @@ public class ArcToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.XAxisRotationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .XAxisRotationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .XAxisRotationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -260,13 +260,13 @@ public class ArcToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -282,13 +282,13 @@ public class ArcToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.largeArcFlagProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .largeArcFlagPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .largeArcFlagPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -304,13 +304,13 @@ public class ArcToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.radiusXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .radiusXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .radiusXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -326,13 +326,13 @@ public class ArcToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.radiusYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .radiusYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .radiusYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -348,13 +348,13 @@ public class ArcToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.sweepFlagProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .sweepFlagPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .sweepFlagPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -370,13 +370,13 @@ public class ArcToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.xProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -392,13 +392,13 @@ public class ArcToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.yProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

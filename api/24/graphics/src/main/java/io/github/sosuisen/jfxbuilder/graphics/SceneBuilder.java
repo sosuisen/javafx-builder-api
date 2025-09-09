@@ -254,11 +254,11 @@ public class SceneBuilder {
     /**
      * Utility setter to add CSS string for this scene's contents.
      * For example:
-     * <pre>{@code
+     * {@snippet :
      * SceneBuilder builder = SceneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();}
-     * </pre>
+     *          .build();
+     * }
      *
      * @param css CSS string
      */
@@ -780,13 +780,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cameraProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cameraPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cameraPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -802,13 +802,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -824,13 +824,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -846,13 +846,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -868,13 +868,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.fillProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .fillPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .fillPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -890,13 +890,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.focusOwnerProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .focusOwnerPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .focusOwnerPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -912,13 +912,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.heightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -934,13 +934,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -956,13 +956,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -978,13 +978,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1000,13 +1000,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1022,13 +1022,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1044,13 +1044,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1066,13 +1066,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1088,13 +1088,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1110,13 +1110,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1132,13 +1132,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1154,13 +1154,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1176,13 +1176,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1198,13 +1198,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1220,13 +1220,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1242,13 +1242,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1264,13 +1264,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1286,13 +1286,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1308,13 +1308,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1330,13 +1330,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1352,13 +1352,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1374,13 +1374,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1396,13 +1396,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1418,13 +1418,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1440,13 +1440,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1462,13 +1462,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1484,13 +1484,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1506,13 +1506,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1528,13 +1528,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1550,13 +1550,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1572,13 +1572,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1594,13 +1594,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1616,13 +1616,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1638,13 +1638,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1660,13 +1660,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1682,13 +1682,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1704,13 +1704,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1726,13 +1726,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1748,13 +1748,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1770,13 +1770,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1792,13 +1792,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1814,13 +1814,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.rootProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .rootPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .rootPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1836,13 +1836,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.userAgentStylesheetProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .userAgentStylesheetPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .userAgentStylesheetPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1858,13 +1858,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.widthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1880,13 +1880,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.windowProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .windowPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .windowPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1902,13 +1902,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.xProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -1924,13 +1924,13 @@ public class SceneBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.yProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

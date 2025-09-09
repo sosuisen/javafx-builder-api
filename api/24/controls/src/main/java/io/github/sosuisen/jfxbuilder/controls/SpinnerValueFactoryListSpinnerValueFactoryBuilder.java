@@ -210,13 +210,13 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.converterProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .converterPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .converterPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -232,13 +232,13 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.itemsProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .itemsPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .itemsPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -254,13 +254,13 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.valueProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -276,13 +276,13 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.wrapAroundProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .wrapAroundPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .wrapAroundPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

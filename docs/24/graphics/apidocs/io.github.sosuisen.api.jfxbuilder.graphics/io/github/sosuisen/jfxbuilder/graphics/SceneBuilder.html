@@ -1240,11 +1240,14 @@ loadScripts(document, 'script');</script>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="SceneBuilder.html" title="class in io.github.sosuisen.jfxbuilder.graphics">SceneBuilder</a></span>&nbsp;<span class="element-name">addStylesheetsText</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;css)</span></div>
 <div class="block">Utility setter to add CSS string for this scene's contents.
  For example:
- <pre><code>
- SceneBuilder builder = SceneBuilder.create()
-          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-          .build();</code>
- </pre></div>
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-addStylesheetsText(java.lang.String)9"><code>SceneBuilder builder = SceneBuilder.create()
+         .addStylesheetsText(".my-label { -fx-text-fill: white; }")
+         .build();
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>css</code> - CSS string</dd>
@@ -1916,13 +1919,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.cameraProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-cameraPropertyApply(java.util.function.Consumer)1"><code>// Use apply
+.apply(obj -&gt; obj.cameraProperty().bind(anotherProperty))
 
- // Use shorthand form
- .cameraPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.cameraPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -1941,13 +1947,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.cursorProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-cursorPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.cursorProperty().bind(anotherProperty))
 
- // Use shorthand form
- .cursorPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.cursorPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -1966,13 +1975,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-effectiveNodeOrientationPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.effectiveNodeOrientationProperty().bind(anotherProperty))
 
- // Use shorthand form
- .effectiveNodeOrientationPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.effectiveNodeOrientationPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -1991,13 +2003,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.eventDispatcherProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-eventDispatcherPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.eventDispatcherProperty().bind(anotherProperty))
 
- // Use shorthand form
- .eventDispatcherPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.eventDispatcherPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2016,13 +2031,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.fillProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-fillPropertyApply(java.util.function.Consumer)11"><code>// Use apply
+.apply(obj -&gt; obj.fillProperty().bind(anotherProperty))
 
- // Use shorthand form
- .fillPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.fillPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2041,13 +2059,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.focusOwnerProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-focusOwnerPropertyApply(java.util.function.Consumer)1"><code>// Use apply
+.apply(obj -&gt; obj.focusOwnerProperty().bind(anotherProperty))
 
- // Use shorthand form
- .focusOwnerPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.focusOwnerPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2066,13 +2087,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.heightProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-heightPropertyApply(java.util.function.Consumer)18"><code>// Use apply
+.apply(obj -&gt; obj.heightProperty().bind(anotherProperty))
 
- // Use shorthand form
- .heightPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.heightPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2091,13 +2115,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.nodeOrientationProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-nodeOrientationPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.nodeOrientationProperty().bind(anotherProperty))
 
- // Use shorthand form
- .nodeOrientationPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.nodeOrientationPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2116,13 +2143,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onContextMenuRequestedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onContextMenuRequestedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onContextMenuRequestedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onContextMenuRequestedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onContextMenuRequestedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2141,13 +2171,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onDragDetectedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onDragDetectedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onDragDetectedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onDragDetectedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onDragDetectedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2166,13 +2199,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onDragDoneProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onDragDonePropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onDragDoneProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onDragDonePropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onDragDonePropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2191,13 +2227,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onDragDroppedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onDragDroppedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onDragDroppedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onDragDroppedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onDragDroppedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2216,13 +2255,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onDragEnteredProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onDragEnteredPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onDragEnteredProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onDragEnteredPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onDragEnteredPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2241,13 +2283,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onDragExitedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onDragExitedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onDragExitedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onDragExitedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onDragExitedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2266,13 +2311,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onDragOverProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onDragOverPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onDragOverProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onDragOverPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onDragOverPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2291,13 +2339,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onInputMethodTextChangedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onInputMethodTextChangedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onInputMethodTextChangedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onInputMethodTextChangedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2316,13 +2367,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onKeyPressedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onKeyPressedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onKeyPressedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onKeyPressedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onKeyPressedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2341,13 +2395,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onKeyReleasedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onKeyReleasedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onKeyReleasedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onKeyReleasedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onKeyReleasedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2366,13 +2423,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onKeyTypedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onKeyTypedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onKeyTypedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onKeyTypedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onKeyTypedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2391,13 +2451,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseClickedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseClickedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseClickedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseClickedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseClickedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2416,13 +2479,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseDragEnteredProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseDragEnteredPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseDragEnteredProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseDragEnteredPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseDragEnteredPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2441,13 +2507,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseDragExitedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseDragExitedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseDragExitedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseDragExitedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseDragExitedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2466,13 +2535,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseDragOverProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseDragOverPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseDragOverProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseDragOverPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseDragOverPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2491,13 +2563,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseDragReleasedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseDragReleasedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseDragReleasedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseDragReleasedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseDragReleasedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2516,13 +2591,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseDraggedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseDraggedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseDraggedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseDraggedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseDraggedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2541,13 +2619,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseEnteredProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseEnteredPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseEnteredProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseEnteredPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseEnteredPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2566,13 +2647,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseExitedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseExitedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseExitedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseExitedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseExitedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2591,13 +2675,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseMovedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseMovedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseMovedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseMovedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseMovedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2616,13 +2703,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMousePressedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMousePressedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMousePressedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMousePressedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMousePressedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2641,13 +2731,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onMouseReleasedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onMouseReleasedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onMouseReleasedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onMouseReleasedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onMouseReleasedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2666,13 +2759,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onRotateProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onRotatePropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onRotateProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onRotatePropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onRotatePropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2691,13 +2787,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onRotationFinishedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onRotationFinishedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onRotationFinishedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onRotationFinishedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onRotationFinishedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2716,13 +2815,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onRotationStartedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onRotationStartedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onRotationStartedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onRotationStartedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onRotationStartedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2741,13 +2843,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onScrollFinishedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onScrollFinishedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onScrollFinishedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onScrollFinishedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onScrollFinishedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2766,13 +2871,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onScrollProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onScrollPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onScrollProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onScrollPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onScrollPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2791,13 +2899,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onScrollStartedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onScrollStartedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onScrollStartedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onScrollStartedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onScrollStartedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2816,13 +2927,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onSwipeDownProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onSwipeDownPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onSwipeDownProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onSwipeDownPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onSwipeDownPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2841,13 +2955,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onSwipeLeftProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onSwipeLeftPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onSwipeLeftProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onSwipeLeftPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onSwipeLeftPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2866,13 +2983,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onSwipeRightProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onSwipeRightPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onSwipeRightProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onSwipeRightPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onSwipeRightPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2891,13 +3011,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onSwipeUpProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onSwipeUpPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onSwipeUpProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onSwipeUpPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onSwipeUpPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2916,13 +3039,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onTouchMovedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onTouchMovedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onTouchMovedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onTouchMovedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onTouchMovedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2941,13 +3067,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onTouchPressedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onTouchPressedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onTouchPressedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onTouchPressedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onTouchPressedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2966,13 +3095,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onTouchReleasedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onTouchReleasedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onTouchReleasedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onTouchReleasedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onTouchReleasedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -2991,13 +3123,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onTouchStationaryProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onTouchStationaryPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onTouchStationaryProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onTouchStationaryPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onTouchStationaryPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3016,13 +3151,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onZoomFinishedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onZoomFinishedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onZoomFinishedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onZoomFinishedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onZoomFinishedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3041,13 +3179,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onZoomProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onZoomPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onZoomProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onZoomPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onZoomPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3066,13 +3207,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.onZoomStartedProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-onZoomStartedPropertyApply(java.util.function.Consumer)29"><code>// Use apply
+.apply(obj -&gt; obj.onZoomStartedProperty().bind(anotherProperty))
 
- // Use shorthand form
- .onZoomStartedPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.onZoomStartedPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3091,13 +3235,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.rootProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-rootPropertyApply(java.util.function.Consumer)1"><code>// Use apply
+.apply(obj -&gt; obj.rootProperty().bind(anotherProperty))
 
- // Use shorthand form
- .rootPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.rootPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3116,13 +3263,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.userAgentStylesheetProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-userAgentStylesheetPropertyApply(java.util.function.Consumer)1"><code>// Use apply
+.apply(obj -&gt; obj.userAgentStylesheetProperty().bind(anotherProperty))
 
- // Use shorthand form
- .userAgentStylesheetPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.userAgentStylesheetPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3141,13 +3291,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.widthProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-widthPropertyApply(java.util.function.Consumer)17"><code>// Use apply
+.apply(obj -&gt; obj.widthProperty().bind(anotherProperty))
 
- // Use shorthand form
- .widthPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.widthPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3166,13 +3319,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.windowProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-windowPropertyApply(java.util.function.Consumer)1"><code>// Use apply
+.apply(obj -&gt; obj.windowProperty().bind(anotherProperty))
 
- // Use shorthand form
- .windowPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.windowPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3191,13 +3347,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.xProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-xPropertyApply(java.util.function.Consumer)14"><code>// Use apply
+.apply(obj -&gt; obj.xProperty().bind(anotherProperty))
 
- // Use shorthand form
- .xPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.xPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>
@@ -3216,13 +3375,16 @@ loadScripts(document, 'script');</script>
  <p>
  Example: 
  </p>
- <pre><code>
- // Use apply
- .apply(obj -&gt; obj.yProperty().bind(anotherProperty))
+ 
+<div class="snippet-container"><button class="copy snippet-copy" aria-label="Copy snippet" onclick="copySnippet(this)"><span data-copied="Copied!">Copy</span><img src="../../../../../../resource-files/copy.svg" alt="Copy snippet"></button>
+<pre class="snippet" id="snippet-yPropertyApply(java.util.function.Consumer)13"><code>// Use apply
+.apply(obj -&gt; obj.yProperty().bind(anotherProperty))
 
- // Use shorthand form
- .yPropertyApply(prop -&gt; prop.bind(anotherProperty))</code>
- </pre></div>
+// Use shorthand form
+.yPropertyApply(prop -&gt; prop.bind(anotherProperty))
+</code></pre>
+</div>
+</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>builder instance</dd>

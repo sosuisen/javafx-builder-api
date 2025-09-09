@@ -179,13 +179,13 @@ public class ComboBoxListViewSkinBuilder<T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.hideOnClickProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .hideOnClickPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .hideOnClickPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

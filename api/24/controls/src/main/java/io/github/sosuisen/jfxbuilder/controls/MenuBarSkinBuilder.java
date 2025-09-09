@@ -187,13 +187,13 @@ public class MenuBarSkinBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.containerAlignmentProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .containerAlignmentPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .containerAlignmentPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -209,13 +209,13 @@ public class MenuBarSkinBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.spacingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .spacingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .spacingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

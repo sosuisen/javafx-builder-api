@@ -272,13 +272,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.blurTypeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .blurTypePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .blurTypePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -294,13 +294,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.chokeProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .chokePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .chokePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -316,13 +316,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.colorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .colorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .colorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -338,13 +338,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.heightProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -360,13 +360,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.inputProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -382,13 +382,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.offsetXProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .offsetXPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .offsetXPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -404,13 +404,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.offsetYProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .offsetYPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .offsetYPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -426,13 +426,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.radiusProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -448,13 +448,13 @@ public class InnerShadowBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.widthProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

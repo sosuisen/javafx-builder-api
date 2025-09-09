@@ -147,13 +147,13 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.getProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .getPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .getPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

@@ -228,13 +228,13 @@ public class CubicCurveToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -250,13 +250,13 @@ public class CubicCurveToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.controlX1Property().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .controlX1PropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .controlX1PropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -272,13 +272,13 @@ public class CubicCurveToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.controlX2Property().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .controlX2PropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .controlX2PropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -294,13 +294,13 @@ public class CubicCurveToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.controlY1Property().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .controlY1PropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .controlY1PropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -316,13 +316,13 @@ public class CubicCurveToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.controlY2Property().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .controlY2PropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .controlY2PropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -338,13 +338,13 @@ public class CubicCurveToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.xProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -360,13 +360,13 @@ public class CubicCurveToBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.yProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */

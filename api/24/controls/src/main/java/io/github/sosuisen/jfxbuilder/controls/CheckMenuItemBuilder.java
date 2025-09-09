@@ -312,13 +312,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.acceleratorProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .acceleratorPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .acceleratorPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -334,13 +334,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.disableProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -356,13 +356,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -378,13 +378,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.idProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -400,13 +400,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.mnemonicParsingProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .mnemonicParsingPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .mnemonicParsingPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -422,13 +422,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onActionProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -444,13 +444,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.onMenuValidationProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .onMenuValidationPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .onMenuValidationPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -466,13 +466,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.parentMenuProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .parentMenuPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .parentMenuPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -488,13 +488,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.parentPopupProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .parentPopupPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .parentPopupPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -510,13 +510,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.selectedProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -532,13 +532,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.styleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -554,13 +554,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.textProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
@@ -576,13 +576,13 @@ public class CheckMenuItemBuilder {
      * <p>
      * Example: 
      * </p>
-     * <pre>{@code
+     * {@snippet :
      * // Use apply
      * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
      *
      * // Use shorthand form
-     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
-     * </pre>
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))
+     * }
      *
      * @return builder instance
      */
