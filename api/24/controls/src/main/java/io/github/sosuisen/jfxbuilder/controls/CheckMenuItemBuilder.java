@@ -284,7 +284,8 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckMenuItem#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuItem#getStyleClass() CheckMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -294,7 +295,8 @@ public class CheckMenuItemBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckMenuItem#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuItem#getStyleClass() CheckMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
      */

@@ -1079,7 +1079,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() AnchorPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1089,7 +1090,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() AnchorPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1099,7 +1101,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() AnchorPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1109,7 +1112,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() AnchorPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1119,7 +1123,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() AnchorPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1129,7 +1134,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() AnchorPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1139,7 +1145,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() AnchorPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1149,7 +1156,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() AnchorPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1159,7 +1167,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() AnchorPane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1169,7 +1178,8 @@ public class AnchorPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.AnchorPane#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() AnchorPane#getTransforms()} method.
      * 
      * @return builder instance
      */

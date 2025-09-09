@@ -1133,7 +1133,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() VBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1143,7 +1144,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() VBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1153,7 +1155,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() VBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1163,7 +1166,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() VBox#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1173,7 +1177,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() VBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1183,7 +1188,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() VBox#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1193,7 +1199,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() VBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1203,7 +1210,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() VBox#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1213,7 +1221,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() VBox#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1223,7 +1232,8 @@ public class VBoxBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() VBox#getTransforms()} method.
      * 
      * @return builder instance
      */

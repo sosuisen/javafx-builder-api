@@ -151,7 +151,8 @@ public class InputMethodEventBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.input.InputMethodEvent#getComposed() InputMethodEvent#getComposed()} method.
      * 
      * @return builder instance
      */
@@ -161,7 +162,8 @@ public class InputMethodEventBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.input.InputMethodEvent#getComposed() InputMethodEvent#getComposed()} method.
      * 
      * @return builder instance
      */

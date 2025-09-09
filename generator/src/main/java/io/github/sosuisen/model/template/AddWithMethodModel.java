@@ -19,7 +19,8 @@ public record AddWithMethodModel(
     String addMethodName,
     String withMethodName,
     String getterMethodName,
-    String originalClassName,
+    String originalCanonicalClassName,
+    String originalSimpleClassName,
     boolean hasWithMethod,
     boolean isSafeVarargs) {
 
@@ -65,8 +66,9 @@ public record AddWithMethodModel(
 
             // Extract observable list type parameter from getter method return type
             String observableListTypeParameter = null;
+            Method getterMethod = null;
             try {
-                Method getterMethod = classMetadata.getTargetClass().getMethod(getterMethodName);
+                getterMethod = classMetadata.getTargetClass().getMethod(getterMethodName);
                 String returnType = getterMethod.getGenericReturnType().getTypeName();
                 if (returnType.startsWith("javafx.collections.ObservableList<")) {
                     Pattern pattern = Pattern.compile("<(.+)>$");
@@ -97,6 +99,8 @@ public record AddWithMethodModel(
                 );
             }
 
+            String declareingClassname = getterMethod.getDeclaringClass().getCanonicalName();
+
             return new AddWithMethodModel(
                 classMetadata.builderClassNameWithTypeParameter(),
                 observableListTypeParameter,
@@ -104,7 +108,8 @@ public record AddWithMethodModel(
                 addMethodName,
                 withMethodName,
                 getterMethodName,
-                classMetadata.getCanonicalClassName(),
+                declareingClassname,
+                classMetadata.getSimpleClassName(),
                 withMethodName != null,
                 isSafeVarargs
             );

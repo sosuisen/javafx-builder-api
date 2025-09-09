@@ -917,7 +917,8 @@ public class CanvasBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() Canvas#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -927,7 +928,8 @@ public class CanvasBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() Canvas#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -937,7 +939,8 @@ public class CanvasBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() Canvas#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -947,7 +950,8 @@ public class CanvasBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.canvas.Canvas#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() Canvas#getTransforms()} method.
      * 
      * @return builder instance
      */

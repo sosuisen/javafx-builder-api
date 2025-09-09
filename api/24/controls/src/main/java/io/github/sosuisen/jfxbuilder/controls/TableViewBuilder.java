@@ -1240,7 +1240,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getColumns()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getColumns() TableView#getColumns()} method.
      * 
      * @return builder instance
      */
@@ -1251,7 +1252,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getColumns()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getColumns() TableView#getColumns()} method.
      * 
      * @return builder instance
      */
@@ -1261,7 +1263,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getColumns()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getColumns() TableView#getColumns()} method.
      * 
      * @return builder instance
      */
@@ -1272,7 +1275,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getColumns()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getColumns() TableView#getColumns()} method.
      * 
      * @return builder instance
      */
@@ -1282,7 +1286,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getItems() TableView#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1293,7 +1298,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getItems()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getItems() TableView#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1303,7 +1309,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getItems() TableView#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1314,7 +1321,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getItems() TableView#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1324,7 +1332,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getSortOrder()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getSortOrder() TableView#getSortOrder()} method.
      * 
      * @return builder instance
      */
@@ -1335,7 +1344,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getSortOrder()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getSortOrder() TableView#getSortOrder()} method.
      * 
      * @return builder instance
      */
@@ -1345,7 +1355,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getSortOrder()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getSortOrder() TableView#getSortOrder()} method.
      * 
      * @return builder instance
      */
@@ -1356,7 +1367,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getSortOrder()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getSortOrder() TableView#getSortOrder()} method.
      * 
      * @return builder instance
      */
@@ -1366,7 +1378,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() TableView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1376,7 +1389,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() TableView#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1386,7 +1400,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() TableView#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1396,7 +1411,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() TableView#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1406,7 +1422,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() TableView#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1416,7 +1433,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() TableView#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1426,7 +1444,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getVisibleLeafColumns()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getVisibleLeafColumns() TableView#getVisibleLeafColumns()} method.
      * 
      * @return builder instance
      */
@@ -1437,7 +1456,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getVisibleLeafColumns()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getVisibleLeafColumns() TableView#getVisibleLeafColumns()} method.
      * 
      * @return builder instance
      */
@@ -1447,7 +1467,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getVisibleLeafColumns()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getVisibleLeafColumns() TableView#getVisibleLeafColumns()} method.
      * 
      * @return builder instance
      */
@@ -1458,7 +1479,8 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableView#getVisibleLeafColumns()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.TableView#getVisibleLeafColumns() TableView#getVisibleLeafColumns()} method.
      * 
      * @return builder instance
      */

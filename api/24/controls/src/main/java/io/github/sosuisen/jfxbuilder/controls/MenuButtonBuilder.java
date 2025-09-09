@@ -1331,7 +1331,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuButton#getItems() MenuButton#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1341,7 +1342,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getItems()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuButton#getItems() MenuButton#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1351,7 +1353,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuButton#getItems() MenuButton#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1361,7 +1364,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.MenuButton#getItems() MenuButton#getItems()} method.
      * 
      * @return builder instance
      */
@@ -1371,7 +1375,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() MenuButton#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1381,7 +1386,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() MenuButton#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1391,7 +1397,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() MenuButton#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1401,7 +1408,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() MenuButton#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1411,7 +1419,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() MenuButton#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1421,7 +1430,8 @@ public class MenuButtonBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() MenuButton#getTransforms()} method.
      * 
      * @return builder instance
      */

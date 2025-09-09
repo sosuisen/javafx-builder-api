@@ -1137,7 +1137,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getButtonTypes()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.DialogPane#getButtonTypes() DialogPane#getButtonTypes()} method.
      * 
      * @return builder instance
      */
@@ -1147,7 +1148,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getButtonTypes()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.DialogPane#getButtonTypes() DialogPane#getButtonTypes()} method.
      * 
      * @return builder instance
      */
@@ -1157,7 +1159,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getButtonTypes()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.DialogPane#getButtonTypes() DialogPane#getButtonTypes()} method.
      * 
      * @return builder instance
      */
@@ -1167,7 +1170,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getButtonTypes()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.DialogPane#getButtonTypes() DialogPane#getButtonTypes()} method.
      * 
      * @return builder instance
      */
@@ -1177,7 +1181,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() DialogPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1187,7 +1192,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() DialogPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1197,7 +1203,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() DialogPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1207,7 +1214,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() DialogPane#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1217,7 +1225,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() DialogPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1227,7 +1236,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() DialogPane#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1237,7 +1247,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() DialogPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1247,7 +1258,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() DialogPane#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1257,7 +1269,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() DialogPane#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1267,7 +1280,8 @@ public class DialogPaneBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() DialogPane#getTransforms()} method.
      * 
      * @return builder instance
      */

@@ -995,7 +995,8 @@ public class SVGPathBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.SVGPath#getStrokeDashArray()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.shape.Shape#getStrokeDashArray() SVGPath#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1005,7 +1006,8 @@ public class SVGPathBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.SVGPath#getStrokeDashArray()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.shape.Shape#getStrokeDashArray() SVGPath#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1015,7 +1017,8 @@ public class SVGPathBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.SVGPath#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.shape.Shape#getStrokeDashArray() SVGPath#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1025,7 +1028,8 @@ public class SVGPathBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.SVGPath#getStrokeDashArray()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.shape.Shape#getStrokeDashArray() SVGPath#getStrokeDashArray()} method.
      * 
      * @return builder instance
      */
@@ -1035,7 +1039,8 @@ public class SVGPathBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.SVGPath#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() SVGPath#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1045,7 +1050,8 @@ public class SVGPathBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.SVGPath#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() SVGPath#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1055,7 +1061,8 @@ public class SVGPathBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.SVGPath#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() SVGPath#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1065,7 +1072,8 @@ public class SVGPathBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.SVGPath#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() SVGPath#getTransforms()} method.
      * 
      * @return builder instance
      */

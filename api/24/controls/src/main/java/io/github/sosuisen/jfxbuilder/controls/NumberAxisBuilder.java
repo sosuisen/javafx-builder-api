@@ -1279,7 +1279,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() NumberAxis#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1289,7 +1290,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() NumberAxis#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1299,7 +1301,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() NumberAxis#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1309,7 +1312,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() NumberAxis#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1319,7 +1323,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getTickMarks()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.Axis#getTickMarks() NumberAxis#getTickMarks()} method.
      * 
      * @return builder instance
      */
@@ -1330,7 +1335,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getTickMarks()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.Axis#getTickMarks() NumberAxis#getTickMarks()} method.
      * 
      * @return builder instance
      */
@@ -1340,7 +1346,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getTickMarks()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.Axis#getTickMarks() NumberAxis#getTickMarks()} method.
      * 
      * @return builder instance
      */
@@ -1351,7 +1358,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getTickMarks()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.Axis#getTickMarks() NumberAxis#getTickMarks()} method.
      * 
      * @return builder instance
      */
@@ -1361,7 +1369,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() NumberAxis#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1371,7 +1380,8 @@ public class NumberAxisBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.NumberAxis#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() NumberAxis#getTransforms()} method.
      * 
      * @return builder instance
      */

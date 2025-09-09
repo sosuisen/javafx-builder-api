@@ -512,7 +512,8 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getItems()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ContextMenu#getItems() ContextMenu#getItems()} method.
      * 
      * @return builder instance
      */
@@ -522,7 +523,8 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getItems()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ContextMenu#getItems() ContextMenu#getItems()} method.
      * 
      * @return builder instance
      */
@@ -532,7 +534,8 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ContextMenu#getItems() ContextMenu#getItems()} method.
      * 
      * @return builder instance
      */
@@ -542,7 +545,8 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getItems()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.ContextMenu#getItems() ContextMenu#getItems()} method.
      * 
      * @return builder instance
      */
@@ -552,7 +556,8 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.PopupControl#getStyleClass() ContextMenu#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -562,7 +567,8 @@ public class ContextMenuBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.PopupControl#getStyleClass() ContextMenu#getStyleClass()} method.
      * 
      * @return builder instance
      */

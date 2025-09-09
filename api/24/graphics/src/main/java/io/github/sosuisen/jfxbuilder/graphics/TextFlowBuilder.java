@@ -1109,7 +1109,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getChildren()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() TextFlow#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1119,7 +1120,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getChildren()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() TextFlow#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1129,7 +1131,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() TextFlow#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1139,7 +1142,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getChildren()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.layout.Pane#getChildren() TextFlow#getChildren()} method.
      * 
      * @return builder instance
      */
@@ -1149,7 +1153,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() TextFlow#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1159,7 +1164,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() TextFlow#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1169,7 +1175,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() TextFlow#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1179,7 +1186,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() TextFlow#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1189,7 +1197,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() TextFlow#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1199,7 +1208,8 @@ public class TextFlowBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.text.TextFlow#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() TextFlow#getTransforms()} method.
      * 
      * @return builder instance
      */

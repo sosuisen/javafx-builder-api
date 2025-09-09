@@ -927,7 +927,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getExclusionScope()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getExclusionScope() DirectionalLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -937,7 +938,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getExclusionScope()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getExclusionScope() DirectionalLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -947,7 +949,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getExclusionScope()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getExclusionScope() DirectionalLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -957,7 +960,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getExclusionScope()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getExclusionScope() DirectionalLight#getExclusionScope()} method.
      * 
      * @return builder instance
      */
@@ -967,7 +971,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getScope()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getScope() DirectionalLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -977,7 +982,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getScope()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getScope() DirectionalLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -987,7 +993,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getScope()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getScope() DirectionalLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -997,7 +1004,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getScope()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.LightBase#getScope() DirectionalLight#getScope()} method.
      * 
      * @return builder instance
      */
@@ -1007,7 +1015,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() DirectionalLight#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1017,7 +1026,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() DirectionalLight#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1027,7 +1037,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() DirectionalLight#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1037,7 +1048,8 @@ public class DirectionalLightBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() DirectionalLight#getTransforms()} method.
      * 
      * @return builder instance
      */

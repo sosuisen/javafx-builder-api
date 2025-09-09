@@ -410,7 +410,8 @@ public class StageBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.stage.Stage#getIcons() Stage#getIcons()} method.
      * 
      * @return builder instance
      */
@@ -420,7 +421,8 @@ public class StageBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.stage.Stage#getIcons() Stage#getIcons()} method.
      * 
      * @return builder instance
      */
@@ -430,7 +432,8 @@ public class StageBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
+     * Creates an instance of the builder, then calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.stage.Stage#getIcons() Stage#getIcons()} method.
      * 
      * @return builder instance
      */
@@ -440,7 +443,8 @@ public class StageBuilder {
     }
 
     /**
-     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.stage.Stage#getIcons()} method.
+     * Creates an instance of the builder, then calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.stage.Stage#getIcons() Stage#getIcons()} method.
      * 
      * @return builder instance
      */

@@ -1117,7 +1117,8 @@ public class ProgressIndicatorBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ProgressIndicator#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1127,7 +1128,8 @@ public class ProgressIndicatorBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() ProgressIndicator#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1137,7 +1139,8 @@ public class ProgressIndicatorBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ProgressIndicator#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1147,7 +1150,8 @@ public class ProgressIndicatorBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() ProgressIndicator#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1157,7 +1161,8 @@ public class ProgressIndicatorBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ProgressIndicator#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1167,7 +1172,8 @@ public class ProgressIndicatorBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() ProgressIndicator#getTransforms()} method.
      * 
      * @return builder instance
      */

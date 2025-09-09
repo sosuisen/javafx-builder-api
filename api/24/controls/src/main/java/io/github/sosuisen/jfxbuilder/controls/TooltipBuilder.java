@@ -612,7 +612,8 @@ public class TooltipBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.PopupControl#getStyleClass() Tooltip#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -622,7 +623,8 @@ public class TooltipBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.control.PopupControl#getStyleClass() Tooltip#getStyleClass()} method.
      * 
      * @return builder instance
      */

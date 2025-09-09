@@ -1279,7 +1279,8 @@ public class TextFieldListCellBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldListCell#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() TextFieldListCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1289,7 +1290,8 @@ public class TextFieldListCellBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldListCell#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() TextFieldListCell#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1299,7 +1301,8 @@ public class TextFieldListCellBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldListCell#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() TextFieldListCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1309,7 +1312,8 @@ public class TextFieldListCellBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldListCell#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() TextFieldListCell#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1319,7 +1323,8 @@ public class TextFieldListCellBuilder<T> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldListCell#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() TextFieldListCell#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1329,7 +1334,8 @@ public class TextFieldListCellBuilder<T> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.TextFieldListCell#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() TextFieldListCell#getTransforms()} method.
      * 
      * @return builder instance
      */

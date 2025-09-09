@@ -1105,7 +1105,8 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() HTMLEditor#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1115,7 +1116,8 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() HTMLEditor#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1125,7 +1127,8 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() HTMLEditor#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1135,7 +1138,8 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() HTMLEditor#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1145,7 +1149,8 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() HTMLEditor#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1155,7 +1160,8 @@ public class HTMLEditorBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() HTMLEditor#getTransforms()} method.
      * 
      * @return builder instance
      */

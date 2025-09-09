@@ -149,7 +149,8 @@ public class MediaBuilder {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.media.Media#getTracks() Media#getTracks()} method.
      * 
      * @return builder instance
      */
@@ -159,7 +160,8 @@ public class MediaBuilder {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.media.Media#getTracks() Media#getTracks()} method.
      * 
      * @return builder instance
      */

@@ -1198,7 +1198,8 @@ public class BubbleChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BubbleChart#getData()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart#getData() BubbleChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1209,7 +1210,8 @@ public class BubbleChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BubbleChart#getData()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.chart.XYChart#getData() BubbleChart#getData()} method.
      * 
      * @return builder instance
      */
@@ -1219,7 +1221,8 @@ public class BubbleChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BubbleChart#getStyleClass()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() BubbleChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1229,7 +1232,8 @@ public class BubbleChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BubbleChart#getStyleClass()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getStyleClass() BubbleChart#getStyleClass()} method.
      * 
      * @return builder instance
      */
@@ -1239,7 +1243,8 @@ public class BubbleChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BubbleChart#getStylesheets()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() BubbleChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1249,7 +1254,8 @@ public class BubbleChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BubbleChart#getStylesheets()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Parent#getStylesheets() BubbleChart#getStylesheets()} method.
      * 
      * @return builder instance
      */
@@ -1259,7 +1265,8 @@ public class BubbleChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BubbleChart#getTransforms()} method.
+     * Calls the {@link javafx.collections.ObservableList#addAll(java.lang.Object[]) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() BubbleChart#getTransforms()} method.
      * 
      * @return builder instance
      */
@@ -1269,7 +1276,8 @@ public class BubbleChartBuilder<X, Y> {
     }
 
     /**
-     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.BubbleChart#getTransforms()} method.
+     * Calls the {@link java.util.List#addAll(java.util.Collection) addAll} method on the ObservableList
+     * returned by the {@link javafx.scene.Node#getTransforms() BubbleChart#getTransforms()} method.
      * 
      * @return builder instance
      */
