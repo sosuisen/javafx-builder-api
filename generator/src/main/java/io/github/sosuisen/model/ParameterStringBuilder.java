@@ -48,7 +48,7 @@ public class ParameterStringBuilder {
             Type type = types[i];
             String typeName = toReadableTypeName(type.getTypeName());
 
-            typeName = TypeMappingManager.getReplacement(className, typeName);
+            // typeName = TypeMappingManager.getReplacement(className, typeName);
 
             typeName = typeName.replaceAll("<(.+)>$", "");
             typeName = typeName.replace("$", ".");
@@ -69,7 +69,7 @@ public class ParameterStringBuilder {
             Type type = types[i];
             String typeName = toReadableTypeName(type.getTypeName());
 
-            typeName = TypeMappingManager.getReplacement(className, typeName);
+            // typeName = TypeMappingManager.getReplacement(className, typeName);
 
             typeName = typeName.replaceAll("<(.+)>$", "");
             typeName = typeName.substring(findLastDotWordIndexReverse(typeName) + 1);

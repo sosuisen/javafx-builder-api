@@ -277,7 +277,7 @@ public class ChoiceDialogBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setResult(T) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceDialog#setResult(R) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */

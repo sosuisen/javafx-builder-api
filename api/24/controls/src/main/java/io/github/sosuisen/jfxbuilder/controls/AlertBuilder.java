@@ -271,7 +271,7 @@ public class AlertBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Alert#setResult(javafx.scene.control.ButtonType) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setResult(R) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */
