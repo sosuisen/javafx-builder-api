@@ -169,7 +169,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -179,7 +179,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -189,7 +189,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -199,7 +199,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -209,7 +209,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -229,7 +229,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -239,7 +239,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -269,7 +269,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -279,7 +279,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -289,7 +289,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -299,7 +299,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -309,7 +309,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -319,7 +319,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -329,7 +329,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -339,7 +339,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -369,7 +369,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -379,7 +379,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -389,7 +389,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -399,7 +399,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -419,7 +419,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -429,7 +429,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -439,7 +439,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -449,7 +449,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -459,7 +459,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -469,7 +469,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -479,7 +479,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -489,7 +489,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -499,7 +499,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -509,7 +509,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -519,7 +519,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -529,7 +529,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -539,7 +539,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -549,7 +549,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -559,7 +559,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -569,7 +569,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -579,7 +579,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -589,7 +589,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -599,7 +599,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -609,7 +609,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -619,7 +619,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -629,7 +629,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -639,7 +639,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -649,7 +649,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -659,7 +659,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -669,7 +669,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -679,7 +679,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -689,7 +689,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -699,7 +699,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -709,7 +709,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -719,7 +719,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -729,7 +729,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -739,7 +739,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -749,7 +749,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -759,7 +759,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -769,7 +769,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -779,7 +779,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -789,7 +789,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -799,7 +799,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -809,7 +809,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -819,7 +819,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -829,7 +829,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -839,7 +839,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -849,7 +849,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -859,7 +859,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -869,7 +869,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -879,7 +879,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -889,7 +889,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -899,7 +899,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -939,7 +939,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setSmooth(boolean) setSmooth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -959,7 +959,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -969,7 +969,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -979,7 +979,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -989,7 +989,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -999,7 +999,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1009,7 +1009,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1019,7 +1019,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1029,7 +1029,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1079,7 +1079,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1089,7 +1089,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1099,7 +1099,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1119,7 +1119,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1129,7 +1129,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1139,7 +1139,7 @@ public class TextBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.text.Text#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

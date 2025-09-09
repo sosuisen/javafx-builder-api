@@ -181,7 +181,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -191,7 +191,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -201,7 +201,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -211,7 +211,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -241,7 +241,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -251,7 +251,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -261,7 +261,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -271,7 +271,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -281,7 +281,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -291,7 +291,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -301,7 +301,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -311,7 +311,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -321,7 +321,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -331,7 +331,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -341,7 +341,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -361,7 +361,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -371,7 +371,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -381,7 +381,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -391,7 +391,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -401,7 +401,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -411,7 +411,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -421,7 +421,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -431,7 +431,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -441,7 +441,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -451,7 +451,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -461,7 +461,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -471,7 +471,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -481,7 +481,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -491,7 +491,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -501,7 +501,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -511,7 +511,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -521,7 +521,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -531,7 +531,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -541,7 +541,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -551,7 +551,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -561,7 +561,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -571,7 +571,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -581,7 +581,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -591,7 +591,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -601,7 +601,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -611,7 +611,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -621,7 +621,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -631,7 +631,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -641,7 +641,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -651,7 +651,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -661,7 +661,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -671,7 +671,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -681,7 +681,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -691,7 +691,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -701,7 +701,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -711,7 +711,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -721,7 +721,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -731,7 +731,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -741,7 +741,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -751,7 +751,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -761,7 +761,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -771,7 +771,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -781,7 +781,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -791,7 +791,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -801,7 +801,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -811,7 +811,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -821,7 +821,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -831,7 +831,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -841,7 +841,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -851,7 +851,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -861,7 +861,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -871,7 +871,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -881,7 +881,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -891,7 +891,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setSmooth(boolean) setSmooth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -901,7 +901,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -911,7 +911,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -921,7 +921,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -931,7 +931,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -941,7 +941,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -951,7 +951,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -961,7 +961,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.shape.Shape#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -971,7 +971,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -981,7 +981,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -991,7 +991,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1001,7 +1001,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1011,7 +1011,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1021,7 +1021,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1031,7 +1031,7 @@ public class RectangleBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

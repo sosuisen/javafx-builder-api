@@ -252,7 +252,7 @@ public class DialogBuilder<R> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResult(java.lang.Object) setResult} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResult(R) setResult} method on the instance being constructed.
      *
      * @return builder instance
      */

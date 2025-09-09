@@ -156,7 +156,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -166,7 +166,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -176,7 +176,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -186,7 +186,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -196,7 +196,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -206,7 +206,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -216,7 +216,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -236,7 +236,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -246,7 +246,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -256,7 +256,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -266,7 +266,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -276,7 +276,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -286,7 +286,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -306,7 +306,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -326,7 +326,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -336,7 +336,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -346,7 +346,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -356,7 +356,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -366,7 +366,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -376,7 +376,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -386,7 +386,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -396,7 +396,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -406,7 +406,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -416,7 +416,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -426,7 +426,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -436,7 +436,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -446,7 +446,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -456,7 +456,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -466,7 +466,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -476,7 +476,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -486,7 +486,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -496,7 +496,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -506,7 +506,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -516,7 +516,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -526,7 +526,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -536,7 +536,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -546,7 +546,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -556,7 +556,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -566,7 +566,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -576,7 +576,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -586,7 +586,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -596,7 +596,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -606,7 +606,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -616,7 +616,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -626,7 +626,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -636,7 +636,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -646,7 +646,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -656,7 +656,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -666,7 +666,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -676,7 +676,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -686,7 +686,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -696,7 +696,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -706,7 +706,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -716,7 +716,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -726,7 +726,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -736,7 +736,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -746,7 +746,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -756,7 +756,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -766,7 +766,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -776,7 +776,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -786,7 +786,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -796,7 +796,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -816,7 +816,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -826,7 +826,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -836,7 +836,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -846,7 +846,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -856,7 +856,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -866,7 +866,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -876,7 +876,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -886,7 +886,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -896,7 +896,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -916,7 +916,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -926,7 +926,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -936,7 +936,7 @@ public class SubSceneBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.SubScene#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

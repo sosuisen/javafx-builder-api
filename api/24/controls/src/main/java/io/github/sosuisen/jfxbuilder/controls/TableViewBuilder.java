@@ -159,7 +159,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -169,7 +169,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -179,7 +179,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -189,7 +189,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -199,7 +199,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -209,7 +209,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -219,7 +219,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -229,7 +229,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -239,7 +239,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -249,7 +249,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -259,7 +259,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -269,7 +269,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -290,7 +290,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -300,7 +300,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -310,7 +310,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -320,7 +320,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -340,7 +340,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -350,7 +350,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -380,7 +380,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -390,7 +390,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -400,7 +400,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -420,7 +420,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -430,7 +430,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -440,7 +440,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -450,7 +450,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -460,7 +460,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -470,7 +470,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -480,7 +480,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -490,7 +490,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -500,7 +500,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -510,7 +510,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -520,7 +520,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -530,7 +530,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -540,7 +540,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -550,7 +550,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -560,7 +560,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -570,7 +570,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -580,7 +580,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -590,7 +590,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -600,7 +600,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -610,7 +610,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -620,7 +620,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -630,7 +630,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -640,7 +640,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -650,7 +650,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -660,7 +660,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -670,7 +670,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -680,7 +680,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -690,7 +690,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -700,7 +700,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -710,7 +710,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -720,7 +720,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -730,7 +730,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -740,7 +740,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -750,7 +750,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -760,7 +760,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -770,7 +770,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -780,7 +780,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -790,7 +790,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -800,7 +800,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -840,7 +840,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -850,7 +850,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -860,7 +860,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -870,7 +870,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -880,7 +880,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -890,7 +890,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -900,7 +900,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -910,7 +910,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -920,7 +920,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -930,7 +930,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -940,7 +940,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -950,7 +950,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -960,7 +960,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -970,7 +970,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -980,7 +980,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1000,7 +1000,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1010,7 +1010,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1020,7 +1020,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1030,7 +1030,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1040,7 +1040,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1060,7 +1060,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1070,7 +1070,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1080,7 +1080,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1090,7 +1090,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1110,7 +1110,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1120,7 +1120,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1130,7 +1130,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1150,7 +1150,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1170,7 +1170,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1180,7 +1180,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1190,7 +1190,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1200,7 +1200,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1210,7 +1210,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1220,7 +1220,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1230,7 +1230,7 @@ public class TableViewBuilder<S> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableView#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

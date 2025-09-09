@@ -159,7 +159,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -169,7 +169,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -179,7 +179,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -189,7 +189,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -199,7 +199,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -209,7 +209,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -219,7 +219,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -229,7 +229,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -239,7 +239,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -249,7 +249,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -259,7 +259,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -269,7 +269,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -279,7 +279,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -289,7 +289,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -299,7 +299,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -319,7 +319,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -329,7 +329,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -339,7 +339,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -349,7 +349,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setDisclosureNode(javafx.scene.Node) setDisclosureNode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TreeCell#setDisclosureNode(javafx.scene.Node) setDisclosureNode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -359,7 +359,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setEditable(boolean) setEditable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Cell#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -369,7 +369,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -379,7 +379,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -389,7 +389,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -399,7 +399,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -409,7 +409,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -419,7 +419,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -429,7 +429,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -439,7 +439,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -449,7 +449,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -459,7 +459,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Cell#setItem(T) setItem} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -469,7 +469,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -479,7 +479,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -489,7 +489,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -499,7 +499,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -509,7 +509,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -519,7 +519,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -529,7 +529,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -539,7 +539,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -549,7 +549,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -559,7 +559,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -569,7 +569,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -579,7 +579,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -589,7 +589,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -599,7 +599,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -609,7 +609,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -619,7 +619,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -629,7 +629,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -639,7 +639,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -649,7 +649,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -659,7 +659,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -669,7 +669,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -679,7 +679,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -689,7 +689,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -699,7 +699,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -709,7 +709,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -719,7 +719,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -729,7 +729,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -739,7 +739,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -749,7 +749,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -759,7 +759,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -769,7 +769,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -779,7 +779,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -789,7 +789,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -799,7 +799,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -809,7 +809,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -819,7 +819,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -829,7 +829,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -839,7 +839,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -849,7 +849,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -859,7 +859,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -869,7 +869,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -879,7 +879,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -889,7 +889,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -899,7 +899,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -909,7 +909,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -919,7 +919,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -929,7 +929,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -939,7 +939,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -949,7 +949,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -959,7 +959,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -969,7 +969,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -979,7 +979,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -989,7 +989,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -999,7 +999,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1009,7 +1009,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1019,7 +1019,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1029,7 +1029,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1039,7 +1039,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1049,7 +1049,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1059,7 +1059,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1069,7 +1069,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1079,7 +1079,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1089,7 +1089,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1099,7 +1099,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1109,7 +1109,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1119,7 +1119,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1129,7 +1129,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1139,7 +1139,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1149,7 +1149,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1159,7 +1159,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setText(java.lang.String) setText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1169,7 +1169,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1179,7 +1179,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1189,7 +1189,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1199,7 +1199,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1209,7 +1209,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1219,7 +1219,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1229,7 +1229,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1239,7 +1239,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setUnderline(boolean) setUnderline} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1249,7 +1249,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1259,7 +1259,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1269,7 +1269,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1279,7 +1279,7 @@ public class TextFieldTreeCellBuilder<T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldTreeCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Labeled#setWrapText(boolean) setWrapText} method on the instance being constructed.
      *
      * @return builder instance
      */

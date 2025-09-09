@@ -52,7 +52,7 @@ public class TextFormatterBuilder<V> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter, java.lang.Object) TextFormatter(StringConverter, V)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter, V) TextFormatter(StringConverter, V)}
      * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
@@ -64,7 +64,7 @@ public class TextFormatterBuilder<V> {
     }
 
     /**
-     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter, java.lang.Object, java.util.function.UnaryOperator) TextFormatter(StringConverter, V, UnaryOperator)}
+     * Accepts the constructor arguments of {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter, V, java.util.function.UnaryOperator) TextFormatter(StringConverter, V, UnaryOperator)}
      * and returns an instance of {@code TextFormatterBuilder<V>}.
      *
      * @return an instance of the {@code TextFormatterBuilder<V>}.
@@ -177,7 +177,7 @@ public class TextFormatterBuilder<V> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TextFormatter#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TextFormatter#setValue(V) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */

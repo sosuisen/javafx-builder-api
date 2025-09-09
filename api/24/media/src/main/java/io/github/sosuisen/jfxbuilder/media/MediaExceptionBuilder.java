@@ -127,7 +127,7 @@ public class MediaExceptionBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.media.MediaException#setStackTrace(java.lang.StackTraceElement...) setStackTrace} method on the instance being constructed.
+     * A builder method that invokes the {@link java.lang.Throwable#setStackTrace(java.lang.StackTraceElement...) setStackTrace} method on the instance being constructed.
      *
      * @return builder instance
      */

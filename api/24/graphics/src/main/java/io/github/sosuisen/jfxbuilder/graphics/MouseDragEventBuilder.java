@@ -163,7 +163,7 @@ public class MouseDragEventBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.input.MouseDragEvent#setDragDetect(boolean) setDragDetect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.input.MouseEvent#setDragDetect(boolean) setDragDetect} method on the instance being constructed.
      *
      * @return builder instance
      */

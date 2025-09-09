@@ -164,7 +164,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setAccelerator(javafx.scene.input.KeyCombination) setAccelerator} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -174,7 +174,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -184,7 +184,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -194,7 +194,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -204,7 +204,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -214,7 +214,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -224,7 +224,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setOnMenuValidation(javafx.event.EventHandler) setOnMenuValidation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -244,7 +244,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -254,7 +254,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setText(java.lang.String) setText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -274,7 +274,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -284,7 +284,7 @@ public class RadioMenuItemBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.RadioMenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.MenuItem#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

@@ -157,7 +157,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -167,7 +167,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -177,7 +177,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -187,7 +187,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -197,7 +197,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -207,7 +207,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -217,7 +217,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -247,7 +247,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCache(boolean) setCache} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -257,7 +257,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -267,7 +267,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -277,7 +277,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -287,7 +287,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -297,7 +297,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -307,7 +307,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -317,7 +317,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -327,7 +327,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setDisable(boolean) setDisable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -337,7 +337,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -347,7 +347,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -357,7 +357,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -367,7 +367,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -377,7 +377,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -387,7 +387,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -397,7 +397,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -407,7 +407,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setManaged(boolean) setManaged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -417,7 +417,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -427,7 +427,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -437,7 +437,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -447,7 +447,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -457,7 +457,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -467,7 +467,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -477,7 +477,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -487,7 +487,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -497,7 +497,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -507,7 +507,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -517,7 +517,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -527,7 +527,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -537,7 +537,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -547,7 +547,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -557,7 +557,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -567,7 +567,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -577,7 +577,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -587,7 +587,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -597,7 +597,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -607,7 +607,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -617,7 +617,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -627,7 +627,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -637,7 +637,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -647,7 +647,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -657,7 +657,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -667,7 +667,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -677,7 +677,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -687,7 +687,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -697,7 +697,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -707,7 +707,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -717,7 +717,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -727,7 +727,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -737,7 +737,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -747,7 +747,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -757,7 +757,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -767,7 +767,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -777,7 +777,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -787,7 +787,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -797,7 +797,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -807,7 +807,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -817,7 +817,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -827,7 +827,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -837,7 +837,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -847,7 +847,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -857,7 +857,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -867,7 +867,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -877,7 +877,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -887,7 +887,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -897,7 +897,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -907,7 +907,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -917,7 +917,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -927,7 +927,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -937,7 +937,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -947,7 +947,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -957,7 +957,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setRotate(double) setRotate} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -967,7 +967,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -977,7 +977,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -987,7 +987,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setScaleX(double) setScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -997,7 +997,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setScaleY(double) setScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1007,7 +1007,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1017,7 +1017,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1027,7 +1027,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1037,7 +1037,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.layout.Region#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1047,7 +1047,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1057,7 +1057,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.Control#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1067,7 +1067,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1077,7 +1077,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1087,7 +1087,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1097,7 +1097,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1107,7 +1107,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -1117,7 +1117,7 @@ public class ButtonBarBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.ButtonBar#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.Node#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

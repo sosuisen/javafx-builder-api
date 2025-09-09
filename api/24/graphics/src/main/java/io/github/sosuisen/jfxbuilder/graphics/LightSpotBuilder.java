@@ -152,7 +152,7 @@ public class LightSpotBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.effect.Light#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -202,7 +202,7 @@ public class LightSpotBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setX(double) setX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -212,7 +212,7 @@ public class LightSpotBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setY(double) setY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -222,7 +222,7 @@ public class LightSpotBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setZ(double) setZ} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Point#setZ(double) setZ} method on the instance being constructed.
      *
      * @return builder instance
      */

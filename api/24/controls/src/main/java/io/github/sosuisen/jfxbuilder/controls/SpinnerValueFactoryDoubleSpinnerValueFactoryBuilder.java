@@ -173,7 +173,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -203,7 +203,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory#setValue(T) setValue} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -213,7 +213,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#setWrapAround(boolean) setWrapAround} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory#setWrapAround(boolean) setWrapAround} method on the instance being constructed.
      *
      * @return builder instance
      */

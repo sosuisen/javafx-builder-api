@@ -174,7 +174,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setComparator(java.util.Comparator) setComparator} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setComparator(java.util.Comparator) setComparator} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -184,7 +184,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -194,7 +194,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setEditable(boolean) setEditable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -204,7 +204,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -214,7 +214,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setId(java.lang.String) setId} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -224,7 +224,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -234,7 +234,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -274,7 +274,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -284,7 +284,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setReorderable(boolean) setReorderable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setReorderable(boolean) setReorderable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -294,7 +294,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setResizable(boolean) setResizable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setResizable(boolean) setResizable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -304,7 +304,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setSortNode(javafx.scene.Node) setSortNode} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setSortNode(javafx.scene.Node) setSortNode} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -324,7 +324,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setSortable(boolean) setSortable} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setSortable(boolean) setSortable} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -334,7 +334,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -344,7 +344,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setText(java.lang.String) setText} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -354,7 +354,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -364,7 +364,7 @@ public class TableColumnBuilder<S, T> {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.scene.control.TableColumn#setVisible(boolean) setVisible} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.scene.control.TableColumnBase#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
      */

@@ -140,7 +140,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -150,7 +150,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setForceIntegerRenderScale(boolean) setForceIntegerRenderScale} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setForceIntegerRenderScale(boolean) setForceIntegerRenderScale} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -190,7 +190,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setHeight(double) setHeight} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -260,7 +260,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -270,7 +270,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -280,7 +280,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -290,7 +290,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -300,7 +300,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -310,7 +310,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setOpacity(double) setOpacity} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -320,7 +320,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setRenderScaleX(double) setRenderScaleX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setRenderScaleX(double) setRenderScaleX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -330,7 +330,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setRenderScaleY(double) setRenderScaleY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setRenderScaleY(double) setRenderScaleY} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -370,7 +370,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -380,7 +380,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setWidth(double) setWidth} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setWidth(double) setWidth} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -390,7 +390,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setX(double) setX} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
      */
@@ -400,7 +400,7 @@ public class StageBuilder {
     }
 
     /**
-     * A builder method that invokes the {@link javafx.stage.Stage#setY(double) setY} method on the instance being constructed.
+     * A builder method that invokes the {@link javafx.stage.Window#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
      */
