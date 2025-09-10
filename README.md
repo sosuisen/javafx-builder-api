@@ -111,6 +111,14 @@ e.g.) The builder class component corresponding to `javafx-controls` is `javafx-
 
 Specify a builder with the same major version as the JavaFX major version.
 
+Example: The builder API corresponding to javafx-controls 21.0.8 is javafx-builder-controls 21.y.z.
+
+Note: The builder API does not adhere to semantic versioning. 
+To clarify compatibility, the major version always matches the corresponding JavaFX version.
+Thus, minor versions may include not only API additions but also breaking changes,
+although I strive to minimize these.
+Patch versions consist of bug fixes with no API changes.
+
 ### Examples
 
 In the example below, please specify a version for `${javafx.builder.version}`.

@@ -27,7 +27,7 @@ Under the `api` directory, there are Maven projects for the generated JavaFX Bui
 
 You can install them to your local Maven repository using:
 ```bash
-./install_api_to_local_24.sh
+./install_api_to_local.sh
 ```
 
 That's it! Now you can use them in your project. Here's an example pom.xml:
@@ -65,7 +65,7 @@ That's it! Now you can use them in your project. Here's an example pom.xml:
 
 If you want to modify the Builder API project, follow these steps to generate it.
 
-Generated builder classes are OS-agnostic; however, this generator document currently supports only Windows.
+Generated builder classes are OS-agnostic; however, this generator document currently supports only Linux.
 
 ### Clone
 
@@ -80,37 +80,37 @@ Clone this repository to your local PC.
 ### Copy JARs
 
 Copy the following JARs from the SDK folder to the `generator/sdk/{version}` folder of this repository. (e.g., generator/sdk/24)
-- `build/publications/javafx.base.jar`
-- `build/publications/javafx.controls-win.jar`
-- `build/publications/javafx.graphics-win.jar`
-- `build/publications/javafx.media-win.jar`
-- `build/publications/javafx.web-win.jar`
+- `build/publications/javafx.base-linux.jar`
+- `build/publications/javafx.controls-linux.jar`
+- `build/publications/javafx.graphics-linux.jar`
+- `build/publications/javafx.media-linux.jar`
+- `build/publications/javafx.web-linux.jar`
 
 ### Generate Builder API Projects
 
 Run the generator to analyze JavaFX JARs and generate builder API projects.
 
 ```bash
-./generate_api_source_24.sh
+./generate_api_source.sh
 ```
 
 ### Build API Projects
 
 ```bash
-./build_api_24.sh
+./build_api.sh
 ```
 
 ### Build JavaDoc
 
 ```bash
-./build_javadoc_24.sh
+./build_javadoc.sh
 ```
 JavaDocs will be generated under `docs` directory.
 
 ### Install JavaFX Builder API to Your Local Maven Repository
 
 ```bash
-./install_api_to_local_24.sh
+./install_api_to_local.sh
 ```
 
 ## Architecture
