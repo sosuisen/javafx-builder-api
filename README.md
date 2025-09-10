@@ -68,8 +68,8 @@ Nonetheless, the builder classes appeal to those who prefer this programming sty
 
 # API Design Policy
 
-- The basic API should be simple, with minimal new concepts to learn. Fundamentally, this is a wrapper that incorporates the builder pattern into the original JavaFX API.
-- Add flavors that fluent API enthusiasts will appreciate on top of the original JavaFX API.
+- Keep the basic API simple, with minimal new concepts to learn. Fundamentally, this is a wrapper that incorporates the builder pattern into the original JavaFX API.
+- Add flavors that fluent API enthusiasts will enjoy on top of the original JavaFX API.
 
 ## Use of JavaFX Builder API 
 
