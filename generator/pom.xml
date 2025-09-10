@@ -16,7 +16,7 @@
     <javafx.plugin.version>0.0.8</javafx.plugin.version>
     <maven.compiler.release>17</maven.compiler.release>
     <main.class>io.github.sosuisen.Launcher</main.class>
-    <javafx.platform>win</javafx.platform>
+    <javafx.platform>linux</javafx.platform>
     <outputDir.api>../api/${javafx.major.version}/${builder.component}</outputDir.api>
   </properties>
 
@@ -26,7 +26,7 @@
       <artifactId>javafx-base</artifactId>
       <version>${javafx.version}</version>
       <scope>system</scope>
-      <systemPath>${pom.basedir}/sdk/${javafx.major.version}/javafx.base.jar</systemPath>
+      <systemPath>${pom.basedir}/sdk/${javafx.major.version}/javafx.base-${javafx.platform}.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
