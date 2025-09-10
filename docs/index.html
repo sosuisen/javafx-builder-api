@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,7 @@
             padding: 20px;
             background-color: #f8f9fa;
         }
-        
+
         .header {
             text-align: center;
             margin-bottom: 40px;
@@ -22,19 +23,19 @@
             color: white;
             border-radius: 10px;
         }
-        
+
         .header h1 {
             margin: 0 0 10px 0;
             font-size: 2.5em;
             font-weight: 300;
         }
-        
+
         .header p {
             margin: 0;
             font-size: 1.1em;
             opacity: 0.9;
         }
-        
+
         .version-section {
             background: white;
             border-radius: 10px;
@@ -43,7 +44,7 @@
             border: 1px solid #e1e5e9;
             overflow: hidden;
         }
-        
+
         .version-header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -52,52 +53,52 @@
             font-size: 1.5em;
             font-weight: 400;
         }
-        
+
         .module-list {
             padding: 0;
             margin: 0;
             list-style: none;
         }
-        
+
         .module-item {
             border-bottom: 1px solid #f1f3f4;
             transition: background-color 0.2s ease;
         }
-        
+
         .module-item:last-child {
             border-bottom: none;
         }
-        
+
         .module-item:hover {
             background-color: #f8f9fa;
         }
-        
+
         .module-link {
             display: block;
             padding: 20px 30px;
             text-decoration: none;
             color: inherit;
         }
-        
+
         .module-name {
             font-size: 1.2em;
             font-weight: 600;
             color: #2c3e50;
             margin: 0 0 8px 0;
         }
-        
+
         .module-description {
             color: #7f8c8d;
             margin: 0;
             font-size: 0.95em;
             line-height: 1.4;
         }
-        
+
         .api-link {
             color: #667eea;
             font-weight: 500;
         }
-        
+
         .footer {
             text-align: center;
             margin-top: 60px;
@@ -106,40 +107,47 @@
             border-radius: 10px;
             border: 1px solid #e1e5e9;
         }
-        
+
         .footer p {
             margin: 0;
             color: #7f8c8d;
         }
-        
+
         .footer a {
             color: #667eea;
             text-decoration: none;
         }
-        
+
         .footer a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
     <div class="header">
         <h1>JavaFX Builder API Documentation</h1>
         <p>Fluent builder API for declarative JavaFX UI construction</p>
     </div>
-    
+
     <div class="version-section">
         <ul class="module-list">
             <li class="module-item">
                 <a href="./24/apidocs/index.html" class="module-link">
                     <div class="module-name">Builder API for JavaFX 24</div>
                 </a>
-            </li>           
+            </li>
+            <li class="module-item">
+                <a href="./21/apidocs/index.html" class="module-link">
+                    <div class="module-name">Builder API for JavaFX 21</div>
+                </a>
+            </li>            
         </ul>
     </div>
-    
+
     <div class="footer">
         <p>Built by <a href="https://github.com/sosuisen/javafx-builder-api">JavaFX Builder API Generator</a></p>
     </div>
 </body>
+
 </html>

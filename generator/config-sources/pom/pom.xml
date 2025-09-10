@@ -28,9 +28,9 @@
         <configuration>
           <source>17</source>
           <locale>en_US</locale>
-          <outputDirectory>../../docs/24/</outputDirectory>
+          <outputDirectory>../../docs/${javafx.major.version}/</outputDirectory>
           <links>
-            <link>https://openjfx.io/javadoc/24/</link>
+            <link>https://openjfx.io/javadoc/${javafx.major.version}/</link>
           </links>
           <additionalOptions>
             <!-- skip strict check java doc-->
