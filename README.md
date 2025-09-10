@@ -66,7 +66,7 @@ Unlike JavaFX 2.0, the builder classes do not have inheritance relationships, wh
 Additionally, builders may incur call overhead.
 Nonetheless, the builder classes appeal to those who prefer this programming style.
 
-# API Design Policy
+## API Design Policy
 
 - Keep the basic API simple, with minimal new concepts to learn. Fundamentally, this is a wrapper that incorporates the builder pattern into the original JavaFX API.
 - Add flavors that fluent API enthusiasts will enjoy on top of the original JavaFX API.
