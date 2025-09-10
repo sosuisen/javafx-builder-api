@@ -24,4 +24,8 @@ if ! [[ "$VERSION" =~ ^[0-9]+$ ]]; then
     exit 1
 fi
 
-mvn clean deploy -T 4 -pl api/$VERSION/controls,api/$VERSION/graphics,api/$VERSION/media,api/$VERSION/web
+# Cannot use multithread
+mvn clean deploy -pl api/$VERSION/controls
+mvn clean deploy -pl api/$VERSION/graphics
+mvn clean deploy -pl api/$VERSION/media
+mvn clean deploy -pl api/$VERSION/web
