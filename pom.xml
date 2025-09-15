@@ -97,7 +97,8 @@
       <id>graphics</id>
       <properties>
         <builder.component>graphics</builder.component>
-        <builder.dependencies><![CDATA[
+        <builder.dependencies>
+          <![CDATA[
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>

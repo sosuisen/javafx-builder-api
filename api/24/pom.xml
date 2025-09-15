@@ -37,11 +37,13 @@
             <additionalOption>-Xdoclint:none</additionalOption>
           </additionalOptions>
           <notimestamp>true</notimestamp>
-          <bottom><![CDATA[
+          <bottom>
+            <![CDATA[
                         <div style="text-align: center; margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px;">
                             <p>Copyright &#169; {currentYear} <a href="https://github.com/sosuisen">Hidekazu Kubota</a> All rights reserved.</p>
                         </div>
-                    ]]></bottom>          
+                    ]]>
+          </bottom>
         </configuration>
       </plugin>
     </plugins>

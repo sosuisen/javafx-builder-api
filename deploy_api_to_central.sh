@@ -25,6 +25,15 @@ if ! [[ "$VERSION" =~ ^[0-9]+$ ]]; then
 fi
 
 # Cannot use multithread
+mvn clean -P javafx$VERSION
+mvn clean compile -pl generator -P javafx$VERSION,controls
+mvn javafx:run -pl generator -P javafx$VERSION,controls
+mvn javafx:run -pl generator -P javafx$VERSION,graphics
+mvn javafx:run -pl generator -P javafx$VERSION,media
+mvn javafx:run -pl generator -P javafx$VERSION,web
+
+mvn clean package javadoc:aggregate -Dmaven.test.skip=true -f ./api/$VERSION/pom.xml
+
 mvn clean deploy -pl api/$VERSION/controls
 mvn clean deploy -pl api/$VERSION/graphics
 mvn clean deploy -pl api/$VERSION/media
