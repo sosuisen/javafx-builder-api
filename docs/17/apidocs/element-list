@@ -1,0 +1,8 @@
+module:io.github.sosuisen.api.jfxbuilder.controls
+io.github.sosuisen.jfxbuilder.controls
+module:io.github.sosuisen.api.jfxbuilder.graphics
+io.github.sosuisen.jfxbuilder.graphics
+module:io.github.sosuisen.api.jfxbuilder.media
+io.github.sosuisen.jfxbuilder.media
+module:io.github.sosuisen.api.jfxbuilder.web
+io.github.sosuisen.jfxbuilder.web
