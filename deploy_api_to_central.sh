@@ -4,7 +4,7 @@
 # Usage: ./deploy_api_to_central.sh [JavaFXversion]
 # Example: ./deploy_api_to_central.sh 24
 
-DEFAULT_VERSION="21"
+DEFAULT_VERSION="25"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"
