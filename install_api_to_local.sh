@@ -4,7 +4,7 @@
 # Usage: ./install_api_to_local.sh [JavaFXversion]
 # Example: ./install_api_to_local.sh 24
 
-DEFAULT_VERSION="21"
+DEFAULT_VERSION="25"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"

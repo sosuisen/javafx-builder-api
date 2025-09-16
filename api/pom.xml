@@ -7,6 +7,7 @@
   <packaging>pom</packaging>
   <description>JavaFX Builder APIs</description>
   <modules>
+    <module>25</module>
     <module>24</module>
     <module>21</module>
     <module>17</module>

@@ -6,7 +6,7 @@
 # Example: ./build_api.sh 24
 #          ./build_api.sh 21
 
-DEFAULT_VERSION="21"
+DEFAULT_VERSION="25"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"
