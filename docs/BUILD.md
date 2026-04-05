@@ -34,7 +34,7 @@ That's it! Now you can use them in your project. Here's an example pom.xml:
 ```xml
   <properties>
     <javafx.version>24.0.2</javafx.version>
-    <javafx.builder.version>24.0.0-SNAPSHOT</javafx.builder.version>
+    <javafx.builder.version>24.0.0</javafx.builder.version>
   </properties>
 
   <dependencies>
