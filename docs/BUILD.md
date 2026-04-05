@@ -9,12 +9,12 @@
     ├── config-sources/         # Configuration files to be copied to API projects
     ├── sdk/                    # JAR files from JavaFX SDK
     ├── src/main/java/io/github/sosuisen/
+    |    ├── generator/         # Generator Facade and generators
     |    ├── model/
     |    │    ├── data/         # Data classes
     |    │    ├── mapper/       # Manager for individual mapping rules
     |    │    └── template/     # Model classes for JTE
     |    ├── App.java           # Entry point called from Launcher
-    |    ├── BuilderClassGenerator.java  # Generator class
     |    └── Launcher.java      # Launch from this point
     └── src/main/resources/
          ├── mapper/            # Individual mapping rules
