@@ -71,16 +71,6 @@ Nonetheless, the builder classes appeal to those who prefer this programming sty
 - Keep the basic API simple, with minimal new concepts to learn. Fundamentally, this is a wrapper that incorporates the builder pattern into the original JavaFX API.
 - Add flavors that fluent API enthusiasts will enjoy on top of the original JavaFX API.
 
-## Use of JavaFX Builder API 
-
-The API has not yet been registered with Maven Central, but you can try it out using the SNAPSHOT version.
-
-The SNAPSHOT version will soon be discontinued and replaced by a stable release. Please plan to update accordingly.
-
-You can also generate and install the API in your local repository for your use.
-
-To generate it yourself, please refer to the instructions in [Generate builder classes](./docs/BUILD.md).
-
 ## Builder API
 
 **API Overview**:
@@ -98,10 +88,6 @@ https://github.com/sosuisen/javafx-builder-api/tree/main/api/
 
 Most of the code comprises simple wrapper classes generated through mechanical transformation rules outlined in [./docs/API.md](./docs/API.md).
 
-## About Component
-
-**Important**: Currently not available in Maven Central. SNAPSHOT only.
-
 ### groupId
 
 io.github.sosuisen
@@ -116,7 +102,7 @@ e.g.) The builder class component corresponding to `javafx-controls` is `javafx-
 
 Specify a builder with the same major version as the JavaFX major version.
 
-Example: The builder API corresponding to javafx-controls 21.0.8 is javafx-builder-controls 21.y.z.
+Example: The builder API corresponding to javafx-controls 25.0.2 is javafx-builder-controls 25.y.z.
 
 Note: The builder API does not adhere to semantic versioning. 
 To clarify compatibility, the major version always matches the corresponding JavaFX version.
@@ -192,23 +178,9 @@ In the example below, please specify a version for `${javafx.builder.version}`.
 
 ```xml
   <properties>
-    <javafx.version>24.0.2</javafx.version>
-    <javafx.builder.version>24.0.0-SNAPSHOT</javafx.builder.version>
+    <javafx.version>25.0.2</javafx.version>
+    <javafx.builder.version>25.0.0</javafx.builder.version>
   </properties>
-  <!-- If you are using the SNAPSHOT version, you need to add the maven-snapshots repository. -->
-  <repositories>
-    <repository>
-      <name>Central Portal Snapshots</name>
-      <id>central-portal-snapshots</id>
-      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 
   <dependencies>
     <dependency>
@@ -289,6 +261,14 @@ Download it here: [Customized GoogleStyle for JavaFX builder](./styles_for_jfxbu
 The BMI (Body Mass Index) calculator demonstrates modern JavaFX development utilizing MVVM architecture, fluent UI construction, and internationalization support.
 
 https://github.com/sosuisen/bmi-mvvm-with-builder
+
+
+## Build
+
+You can also generate and install the API in your local repository for your use.
+
+To generate it yourself, please refer to the instructions in [Generate builder classes](./docs/BUILD.md).
+
 
 ## LICENSE
 
