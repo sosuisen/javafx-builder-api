@@ -2,9 +2,9 @@
 
 # Install JavaFX Builder API to local repository
 # Usage: ./install_api_to_local.sh [JavaFXversion]
-# Example: ./install_api_to_local.sh 24
+# Example: ./install_api_to_local.sh 25
 
-DEFAULT_VERSION="25"
+DEFAULT_VERSION="26"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"

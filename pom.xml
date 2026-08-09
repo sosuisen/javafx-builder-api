@@ -54,8 +54,8 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <javafx.version>24.0.0</javafx.version>
-        <javafx.major.version>24</javafx.major.version>
+        <javafx.version>26.0.0</javafx.version>
+        <javafx.major.version>26</javafx.major.version>
       </properties>
     </profile>
     <profile>
@@ -86,6 +86,13 @@
         <javafx.major.version>25</javafx.major.version>
       </properties>
     </profile>
+    <profile>
+      <id>javafx26</id>
+      <properties>
+        <javafx.version>26.0.0</javafx.version>
+        <javafx.major.version>26</javafx.major.version>
+      </properties>
+    </profile>    
     <profile>
       <id>controls</id>
       <properties>

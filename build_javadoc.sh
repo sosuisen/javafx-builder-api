@@ -2,10 +2,10 @@
 
 # JavaFX Builder API JavaDoc build Script
 # Usage: ./build_javadoc.sh [JavaFXversion]
-# Example: ./build_javadoc.sh 24
+# Example: ./build_javadoc.sh 25
 #          ./build_javadoc.sh 21
 
-DEFAULT_VERSION="25"
+DEFAULT_VERSION="26"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"

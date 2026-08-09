@@ -3,10 +3,10 @@
 # JavaFX Builder API build Script 
 # (must be run after generate_api_source.sh)
 # Usage: ./build_api.sh [JavaFXversion]
-# Example: ./build_api.sh 24
+# Example: ./build_api.sh 25
 #          ./build_api.sh 21
 
-DEFAULT_VERSION="25"
+DEFAULT_VERSION="26"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"

@@ -2,10 +2,10 @@
 
 # JavaFX Builder API Source Generator Script
 # Usage: ./generate_api_source.sh [JavaFXversion]
-# Example: ./generate_api_source.sh 24
+# Example: ./generate_api_source.sh 25
 #          ./generate_api_source.sh 21
 
-DEFAULT_VERSION="25"
+DEFAULT_VERSION="26"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"

@@ -2,9 +2,9 @@
 
 # Deploy JavaFX Builder API to Maven Central
 # Usage: ./deploy_api_to_central.sh [JavaFXversion]
-# Example: ./deploy_api_to_central.sh 24
+# Example: ./deploy_api_to_central.sh 25
 
-DEFAULT_VERSION="25"
+DEFAULT_VERSION="26"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"
