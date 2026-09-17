@@ -86,6 +86,13 @@ Copy the following JARs from the SDK folder to the `generator/sdk/{version}` fol
 - `build/publications/javafx.media-linux.jar`
 - `build/publications/javafx.web-linux.jar`
 
+### New JavaFX version
+
+- Add profile in pom.xml
+- Add generator/src/main/resources/mapper/
+- Update api/pom.xml
+- Update docs/index.html
+
 ### Generate Builder API Projects
 
 Run the generator to analyze JavaFX JARs and generate builder API projects.

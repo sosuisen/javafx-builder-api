@@ -5,7 +5,7 @@
 # Example: ./generate_api_source.sh 25
 #          ./generate_api_source.sh 21
 
-DEFAULT_VERSION="26"
+DEFAULT_VERSION="27"
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 [JavaFXversion]"
